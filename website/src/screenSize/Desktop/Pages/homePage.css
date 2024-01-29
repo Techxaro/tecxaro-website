@@ -1,0 +1,66 @@
+/* GLOBAL VARIABLES */
+
+
+
+
+/* NAVBAR -------- navbar */
+#Navbar{
+    background-color: var(--grey);
+    width: 100%;
+    height: 6rem;
+
+    display: flex;
+    align-items:center;
+
+    position: sticky;
+    top: 0;
+
+    z-index: +100;
+
+}
+
+.joinUs-navbar{
+    position: absolute;
+    right: 6rem;
+    
+
+}
+
+
+/* HERO SECTION */
+
+#HeroSection{
+    width: 100%;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.heroSection-main-highlight{
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+
+#scrolling-down-animation-hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* HOME PAGE */
+#home-page-desktop-id{
+    width: 100%;
+    height: 500vh;
+}
