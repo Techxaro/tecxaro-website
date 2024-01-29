@@ -50,6 +50,15 @@
 }
 
 
+#scrolling-down-animation-hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* HOME PAGE */
 #home-page-desktop-id{
     width: 100%;
