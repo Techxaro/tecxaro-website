@@ -27,6 +27,29 @@
 }
 
 
+/* HERO SECTION */
+
+#HeroSection{
+    width: 100%;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.heroSection-main-highlight{
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+
 /* HOME PAGE */
 #home-page-desktop-id{
     width: 100%;
