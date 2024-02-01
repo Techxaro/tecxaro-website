@@ -112,7 +112,7 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 
 
@@ -133,6 +133,65 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+
+
+    background-color: var(--grey);
+
+}
+
+
+#practicalApproach-smallPara1{
+
+    width: 53%;
+
+}
+
+
+#practicalApproach-whyChooseUs{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#practicalApproach-heading{
+
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+#practicalApproach-paragraph2{
+
+    
+    width: 50%;
+
+}
+
+
+
+#wrapper-practicalApproach-section-homePage{
+
+    color: white;
+    width: 92.25rem;
+    height: 90%;
+
+}
+
+
+
+.practicalApproach-subHeading{
+
+    font-size: 3rem;
+
 
 }
 

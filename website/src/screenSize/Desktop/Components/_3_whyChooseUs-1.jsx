@@ -16,10 +16,10 @@ export const PracticalApproach = () => {
 
         {/* WHY CHOOSE US */}
 
-        <div className="text-8xl raleway font-semibold">
+        <div id="practicalApproach-whyChooseUs" className="text-8xl raleway font-semibold mb-20">
 
-          <h1 className=" text-[#F56B00] mb-12">Why choose
-            <span className=" text-white"> Us ?</span></h1>
+          <h1 className=" text-white">Why choose
+            <span className="text-[#F56B00]"> Us ?</span></h1>
 
         </div>
 
@@ -30,10 +30,10 @@ export const PracticalApproach = () => {
 
 
         {/* PARAGRAPH 1 SMALL */}
-        <div id="practicalApprach-smallPara1">
+        <div id="practicalApproach-smallPara1">
 
+          <p className=" dmMono para1-aboutUs-D">At Tecxaro, In Tecxaro, we believe in learning by doing. Our approach is hands-on and practical, guiding you to create real-world projects using ESP32 boards. Skip traditional methods; join us to innovate and build with confidence in the exciting field of robotics.</p>
 
-          
         </div>
 
 
@@ -42,9 +42,11 @@ export const PracticalApproach = () => {
 
 
         {/* PRACTICAL APPROACH */}
-        <div id="practicalApproach-heading">
+        <div id="practicalApproach-heading" className=" mb-12">
 
-
+          <h1 className=" practicalApproach-subHeading raleway font-semibold">
+            <span className=" text-[#F56B00]"
+            >Practical</span> Approach</h1>
 
         </div>
 
@@ -77,10 +79,12 @@ export const PracticalApproach = () => {
 
 
         {/* PARAGRAPH 2 */}
-        <div id="practicalApproach-paragraph2">
+        <div className=" w-[100%] flex justify-end">
+          <div id="practicalApproach-paragraph2">
 
+            <p className=" dmMono para1-aboutUs-D">The ESP32, a versatile microcontroller, excels in wireless applications with support for Wi-Fi and Bluetooth. Its dual-core processor, rich peripherals, and Arduino compatibility make it a preferred choice. With energy efficiency for battery-powered use, it&apos;s ideal for diverse projects. As an open-source platform, the ESP32 encourages collaboration and rapid prototyping in electronics and IoT, combining affordability with ease of use.</p>
 
-
+          </div>
         </div>
 
 
