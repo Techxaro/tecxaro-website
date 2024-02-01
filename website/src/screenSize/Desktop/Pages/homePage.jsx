@@ -14,6 +14,7 @@ export const HomePageDesktop = () => {
         <HeroSection/>
         <AboutUs/>
         <PracticalApproach/>
+        
     </div>
   )
 }

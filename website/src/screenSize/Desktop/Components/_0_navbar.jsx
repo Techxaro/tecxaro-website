@@ -9,7 +9,7 @@ import tecxaroLogo from "../../../assets/svg/tecxaro-logo.svg"
 
 export const Navbar = () => {
   return (
-    <div id="Navbar" className=" drop-shadow-lg">
+    <div id="Navbar" className=" drop-shadow-md">
 
 
 

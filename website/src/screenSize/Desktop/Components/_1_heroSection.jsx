@@ -9,7 +9,7 @@ import "../Pages/homePage.css"
 
 export const HeroSection = () => {
   return (
-    <div id="HeroSection" className=" drop-shadow-lg">
+    <div id="HeroSection">
 
 
       {/* THE MAIN BIG BOLD WRITING */}

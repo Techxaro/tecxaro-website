@@ -1,6 +1,26 @@
 
+
+
+
 export const TailoredForYou = () => {
   return (
-    <div></div>
+    <div>
+
+        {/* TAILOURED FOR YOU SUB HEADING */}
+
+
+
+
+
+        {/* THE IMAGE  */}
+
+
+
+
+
+
+        {/* THE PARAGRAPH */}
+
+    </div>
   )
 }
