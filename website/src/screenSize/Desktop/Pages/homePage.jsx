@@ -2,6 +2,7 @@
 import { Navbar } from "../Components/_0_navbar"
 import { HeroSection } from "../Components/_1_heroSection"
 import { AboutUs } from "../Components/_2_aboutUs"
+import { PracticalApproach } from "../Components/_3_whyChooseUs-1"
 
 // CSS
 import "./homePage.css"
@@ -12,6 +13,7 @@ export const HomePageDesktop = () => {
         <Navbar/>
         <HeroSection/>
         <AboutUs/>
+        <PracticalApproach/>
     </div>
   )
 }
