@@ -13,7 +13,7 @@ export const HeroSection = () => {
 
 
       {/* THE MAIN BIG BOLD WRITING */}
-      <div className=" raleway text-white mb-[12rem] font-medium flex flex-col justify-center items-center">
+      <div className=" raleway text-white font-medium flex flex-col justify-center items-center">
 
 
         {/* FIRST LINE */}

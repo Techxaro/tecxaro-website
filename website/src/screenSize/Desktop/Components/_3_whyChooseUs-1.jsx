@@ -1,5 +1,8 @@
 
 
+// IMPORTING IMAGES HERE
+import esp32Img from "../../../assets/png/esp32Img.png"
+
 
 export const PracticalApproach = () => {
   return (
@@ -79,25 +82,25 @@ export const PracticalApproach = () => {
 
 
         {/* PARAGRAPH 2 */}
-        <div className=" w-[100%] flex justify-end">
+        <div className=" w-[100%] flex justify-between flex-row-reverse">
           <div id="practicalApproach-paragraph2">
 
             <p className=" dmMono para1-aboutUs-D">The ESP32, a versatile microcontroller, excels in wireless applications with support for Wi-Fi and Bluetooth. Its dual-core processor, rich peripherals, and Arduino compatibility make it a preferred choice. With energy efficiency for battery-powered use, it&apos;s ideal for diverse projects. As an open-source platform, the ESP32 encourages collaboration and rapid prototyping in electronics and IoT, combining affordability with ease of use.</p>
 
           </div>
-        </div>
+       
 
 
 
 
 
         {/* ESP 32 DRAWING */}
-        <div id="practicalApproach-esp32img">
+        <div id="practicalApproach-esp32img" >
 
-
+            <img  src={esp32Img} alt="esp 32 image with markings" />
 
         </div>
-
+        </div>
 
 
 
