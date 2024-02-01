@@ -16,8 +16,6 @@ export const PracticalApproach = () => {
 
       <div id="wrapper-practicalApproach-section-homePage">
 
-
-
         {/* WHY CHOOSE US */}
 
         <div id="practicalApproach-whyChooseUs" className="text-8xl raleway font-semibold mb-20">
@@ -33,12 +31,17 @@ export const PracticalApproach = () => {
 
 
 
+
+
         {/* PARAGRAPH 1 SMALL */}
         <div id="practicalApproach-smallPara1">
 
           <p className=" dmMono para1-aboutUs-D">At Tecxaro, In Tecxaro, we believe in learning by doing. Our approach is hands-on and practical, guiding you to create real-world projects using ESP32 boards. Skip traditional methods; join us to innovate and build with confidence in the exciting field of robotics.</p>
 
         </div>
+
+
+
 
 
 
