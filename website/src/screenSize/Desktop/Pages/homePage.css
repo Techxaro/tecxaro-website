@@ -7,12 +7,13 @@
 #Navbar{
     background-color: var(--grey);
     width: 100%;
+    max-width: 1920px;
     height: 6rem;
 
     display: flex;
     align-items:center;
 
-    position: sticky;
+    position: fixed;
     top: 0;
 
     z-index: +100;
@@ -31,6 +32,7 @@
 
 #HeroSection{
     width: 100%;
+    max-width: 1920px;
     height: 100vh;
 
 
@@ -40,6 +42,8 @@
     align-items: center;
 
     text-align: center;
+
+    background-color: var(--grey);
 
 }
 
@@ -59,8 +63,185 @@
 
 
 
+
+
+
+
+/* ABOUT US SECTION HOME PAGE */
+#AboutUs-section-homePage-D{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+
+    /* background-color: red; */
+    background-color: var(--grey);
+
+}
+
+
+
+
+#text-wrapper-aboutUs-D{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 51%;
+    
+}
+
+
+.para1-aboutUs-D{
+
+    font-size: 1.375rem;
+    line-height: 30px;
+}
+
+
+.contentWrapper-aboutUs-D{
+
+    height: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* PRACTICAL APPROACH SECTION */
+#practicalApproach-section-homePage-D{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1920px;
+    height: 59rem;
+
+
+    background-color: var(--grey);
+
+    position: relative;
+
+    
+
+}
+
+
+#practicalApproach-smallPara1{
+
+    width: 53%;
+
+}
+
+
+#practicalApproach-whyChooseUs{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#practicalApproach-heading{
+
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+#practicalApproach-paragraph2{  
+    width: 50%;
+
+}
+
+
+
+#wrapper-practicalApproach-section-homePage{
+
+    color: white;
+    width: 92.25rem;
+    height: 90%;
+
+    margin-left: 10.5rem;
+
+}
+
+
+
+.practicalApproach-subHeading{
+
+    font-size: 3rem;
+}
+
+#practicalApproach-esp32img{
+
+    position: relative;
+    bottom: 3rem;
+
+}
+
+
+.the-svgThingy-for-the-website{
+
+    width: 10rem;
+    /* height: 10rem; */
+    position: relative;
+
+    right: 2rem;
+    top: 22.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+
+#practicalApproach-whiteSvgLine{
+
+    height: 50rem;
+
+}
+
+
+
+
 /* HOME PAGE */
 #home-page-desktop-id{
     width: 100%;
     height: 500vh;
+
+    background-color: #6c6c6c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: -1;
 }
