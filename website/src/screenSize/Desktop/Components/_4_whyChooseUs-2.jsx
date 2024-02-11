@@ -24,7 +24,7 @@ export const TailoredForYou = () => {
 
 
         {/* the text section div  */}
-        <div className="text-wrapper-tailourMadeForYou mb-44">
+        <div className="text-wrapper-tailourMadeForYou mb-16">
 
 
           
