@@ -123,7 +123,7 @@ export const PracticalApproach = () => {
 
 
           {/* THE ORANGE SVG THINGY */}
-          <div id="practicalApprach-orangeSvgThingy">
+          <div id="practicalApprach-orangeSvgThingy2">
             <img src={gitDot} alt="a git dot" />
           </div>
 
