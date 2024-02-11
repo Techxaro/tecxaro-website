@@ -262,6 +262,8 @@
 #tailouredforyou-wrapper{
 
     width: 92.25rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -273,9 +275,21 @@
 
 .mainPara-tailourMadeForYou{
 
-    width: 50%;
+    /* width: 50%; */
+    font-size: 1.375rem;
+    line-height: 30px;
 }
 
+.text-wrapper-tailourMadeForYou{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
 
 
 
