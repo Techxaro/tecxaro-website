@@ -61,7 +61,7 @@ export const PracticalApproach = () => {
 
 
 
-        
+
 
 
 
@@ -110,25 +110,35 @@ export const PracticalApproach = () => {
       <div className="the-svgThingy-for-the-website">
 
 
-          {/* THE ORANGE SVG THINGY */}
-          <div id="practicalApprach-orangeSvgThingy">
-            <img src={gitDot} alt="a git dot" />
-          </div>
-
-
-
-          {/* THE WHITE SVG LINE */}
-          <div id="practicalApproach-whiteSvgLine" className=" w-2 bg-white "></div>
-
-
-
-          {/* THE ORANGE SVG THINGY */}
-          <div id="practicalApprach-orangeSvgThingy2">
-            <img src={gitDot} alt="a git dot" />
-          </div>
-
-
+        {/* THE ORANGE SVG THINGY */}
+        <div id="practicalApprach-orangeSvgThingy">
+          <img src={gitDot} alt="a git dot" />
         </div>
+
+
+
+        {/* THE WHITE SVG LINE */}
+        <div id="practicalApproach-whiteSvgLine" className=" w-2 bg-white "></div>
+
+
+
+        {/* THE ORANGE SVG THINGY */}
+        <div id="practicalApprach-orangeSvgThingy2">
+          <img src={gitDot} alt="a git dot" />
+        </div>
+
+
+        {/* THE WHITE SVG LINE */}
+        <div id="practicalApproach-whiteSvgLine" className=" w-2 bg-white "></div>
+
+
+        {/* THE ORANGE SVG THINGY */}
+        <div id="practicalApprach-orangeSvgThingy2">
+          <img src={gitDot} alt="a git dot" />
+        </div>
+
+
+      </div>
 
     </div>
   )

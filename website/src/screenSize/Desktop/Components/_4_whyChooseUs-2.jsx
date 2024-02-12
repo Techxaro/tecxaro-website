@@ -38,7 +38,7 @@ export const TailoredForYou = () => {
 
 
           {/* the paragraph part */}
-          <div>
+          <div className=" ml-1">
             <p className=" dmMono mainPara-tailourMadeForYou">Tecxaro is your ideal choice for robotics education, tailored specifically to college and high school students. Our courses blend academic relevance with a hands-on, practical approach, ensuring students not only understand theory but also gain valuable skills applicable in real-world scenarios. Our commitment to a targeted and comprehensive education sets us apart in preparing students for success in the field of robotics.</p>
           </div>
 
