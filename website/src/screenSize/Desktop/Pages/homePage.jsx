@@ -4,6 +4,7 @@ import { HeroSection } from "../Components/_1_heroSection"
 import { AboutUs } from "../Components/_2_aboutUs"
 import { PracticalApproach } from "../Components/_3_whyChooseUs-1"
 import { TailoredForYou } from "../Components/_4_whyChooseUs-2"
+import { FocusOnInnovation } from "../Components/_5_whyChooseUs-3"
 
 // CSS
 import "./homePage.css"
@@ -16,6 +17,7 @@ export const HomePageDesktop = () => {
         <AboutUs/>
         <PracticalApproach/>
         <TailoredForYou/>
+        <FocusOnInnovation/>
     </div>
   )
 }
