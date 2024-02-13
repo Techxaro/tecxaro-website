@@ -179,10 +179,29 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE SVG THINGY FOR THE WEBSITE */
+
 .the-svgThingy-for-the-website{
 
     width: 10rem;
-    /* height: 10rem; */
+    height: 130rem;
     position: relative;
 
     right: 2rem;
@@ -198,25 +217,38 @@
     
 }
 
+#practicalApprach-orangeSvgThingy{
+
+    position: relative;
+    /* bottom: 1rem; */
+    top: 2rem;
+}
+
+
 #practicalApproach-whiteSvgLine{
 
     height: 52rem;
     position: relative;
-    bottom: 1rem;
+    /* bottom: 1rem; */
+    top: 2rem;
 }
 
-#practicalApprach-orangeSvgThingy{
-
-    position: relative;
-    bottom: 1rem;
-}
 
 #practicalApprach-orangeSvgThingy2{
 
     position: relative;
-    bottom: 0.98rem;
+    /* bottom: 0.98rem; */
+    top: 2rem;
 }
 
+
+#practicalApproach-whiteSvgLine2{
+
+    height: 58rem;
+    position: relative;
+    /* bottom: 1rem; */
+    top: 2rem;
+}
 
 
 
@@ -416,5 +448,26 @@
     max-width: 1920px;
 
     height: 59rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.FOI-wrapper{
+
+    width: 92.25rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FOI-text-part{
+    
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}

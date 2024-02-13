@@ -29,7 +29,7 @@ export const TailoredForYou = () => {
 
           
           {/* the subheading part */}
-          <div className=" mb-12">
+          <div className=" mb-12 mr-4" >
             <h1 className="whyChooseUs-subheading raleway font-semibold">
               Tailoured for <span className=" text-[#F56B00]">you</span></h1>
           </div>
