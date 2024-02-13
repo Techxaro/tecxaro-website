@@ -8,7 +8,7 @@
     src: url(./assets/fonts/Raleway-VariableFont_wght.ttf);
 }
 
-.raleway{
+.raleway {
     font-family: var(--raleway);
 }
 
@@ -17,7 +17,7 @@
     src: url(./assets/fonts/DMMono-Regular.ttf);
 }
 
-.dmMono{
+.dmMono {
     font-family: var(--dmMono);
 }
 
@@ -26,17 +26,41 @@
     src: url(./assets/fonts/Poppins-Regular.ttf);
 }
 
-.poppins{
+.poppins {
     font-family: var(--poppins);
 }
 
-:root{
-    --grey: #2A2A2A ;
+:root {
+    --grey: #2A2A2A;
     --orange: #F56B00;
     --lightGrey: #D9D9D9;
-    --poppins:poppins;
-    --dmMono:dmMono;
-    --raleway:raleway;
+    --poppins: poppins;
+    --dmMono: dmMono;
+    --raleway: raleway;
 }
 
+.highlight-orange {
 
+    background-color: var(--orange);
+    color: white;
+    padding: 0 4px 2px 4px;
+
+}
+
+.color-orange {
+
+    color: var(--orange);
+}
+
+.paragraph-text {
+    font-size: 1.175rem;
+    line-height: 30px;
+    font-family: var(--dmMono);
+    color: white;
+}
+
+.sub-heading-text {
+    font-size: 3rem;
+    font-family: var(--raleway);
+    color: white;
+}
