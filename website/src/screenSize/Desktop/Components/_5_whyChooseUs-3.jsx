@@ -11,7 +11,7 @@ export const FocusOnInnovation = () => {
 
 
       {/* THE WRAPPER AROUND THE QUOTE AND THE TEXT */}
-      <div>
+      <div className="FOI-wrapper">
 
 
 
@@ -25,19 +25,20 @@ export const FocusOnInnovation = () => {
 
 
 
-        <div>
+        <div className="FOI-text-part">
 
           {/* SUB HEADING "FOCUS ON INNOVATION" */}
-          <div>
-            <h1 className="sub-heading-text font-semibold">Focus on Innovation</h1>
+          <div className="mb-12 mr-6">
+            <h1 className="sub-heading-text font-semibold">Focus on
+              <span className="color-orange"> Innovation</span></h1>
           </div>
 
 
 
 
           {/* MAIN PARAGRAPH  */}
-          <div>
-            <p className="paragraph-text">Tecxaro fosters innovation by encouraging creative thinking and hands-on learning. We guide students to apply theoretical knowledge practically, cultivating a mindset of innovation. Our focus on real-world impact inspires the next generation of innovators, ready to bring positive change through robotics and technology. Join us in the journey of exploration and active innovation cultivation.</p>
+          <div className="ml-4">
+            <p className="paragraph-text">Tecxaro fosters <span className="color-orange text-3xl">innovation</span> by encouraging creative thinking and hands-on learning. We guide students to <span className="highlight-orange">apply theoretical knowledge practically</span>, cultivating a mindset of innovation. Our focus on <span className="color-orange text-3xl">real-world impact</span> inspires the next generation of innovators, ready to bring positive change through robotics and technology. Join us in the journey of exploration and active innovation cultivation.</p>
           </div>
 
 

@@ -5,6 +5,7 @@ import { AboutUs } from "../Components/_2_aboutUs"
 import { PracticalApproach } from "../Components/_3_whyChooseUs-1"
 import { TailoredForYou } from "../Components/_4_whyChooseUs-2"
 import { FocusOnInnovation } from "../Components/_5_whyChooseUs-3"
+import { TheOrangeBanner } from "../Components/_6_orangeBanner"
 
 // CSS
 import "./homePage.css"
@@ -18,6 +19,7 @@ export const HomePageDesktop = () => {
         <PracticalApproach/>
         <TailoredForYou/>
         <FocusOnInnovation/>
+        <TheOrangeBanner/>
     </div>
   )
 }

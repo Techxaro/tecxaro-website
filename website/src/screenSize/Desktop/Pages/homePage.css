@@ -14,7 +14,7 @@
 /* HOME PAGE */
 #home-page-desktop-id{
     width: 100%;
-    height: 500vh;
+    height: 900vh;
 
     background-color: #6c6c6c;
     display: flex;
@@ -179,10 +179,29 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE SVG THINGY FOR THE WEBSITE */
+
 .the-svgThingy-for-the-website{
 
     width: 10rem;
-    /* height: 10rem; */
+    height: 130rem;
     position: relative;
 
     right: 2rem;
@@ -198,25 +217,38 @@
     
 }
 
+#practicalApprach-orangeSvgThingy{
+
+    position: relative;
+    /* bottom: 1rem; */
+    top: 2rem;
+}
+
+
 #practicalApproach-whiteSvgLine{
 
     height: 52rem;
     position: relative;
-    bottom: 1rem;
+    /* bottom: 1rem; */
+    top: 2rem;
 }
 
-#practicalApprach-orangeSvgThingy{
-
-    position: relative;
-    bottom: 1rem;
-}
 
 #practicalApprach-orangeSvgThingy2{
 
     position: relative;
-    bottom: 0.98rem;
+    /* bottom: 0.98rem; */
+    top: 2rem;
 }
 
+
+#practicalApproach-whiteSvgLine2{
+
+    height: 58rem;
+    position: relative;
+    /* bottom: 1rem; */
+    top: 2rem;
+}
 
 
 
@@ -416,5 +448,98 @@
     max-width: 1920px;
 
     height: 59rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.FOI-wrapper{
+
+    width: 92.25rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FOI-text-part{
+    
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE ORANGE BANNER SECTION */
+#TOB-main{
+    background-color: var(--orange);
+    width: 100%;
+    max-width: 1920px;
+
+    height: 24rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TOB-wrapper{
+    width: 92.25rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.TOB-bolded{
+    font-size: 3rem;
+}
+
+.TOB-background{
+    background-color: white;
+    padding: 2px 8px 0 8px;
+}
+
+.TOB-lineBelow{
+    position: relative;
+    top: 1.2rem;
+    left: 12rem;
+}
+
+.TOB-joinUs-button{
+
+    font-size: 3rem;
+    background-color: var(--lightGrey);
+    width: 15rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid black;
+}

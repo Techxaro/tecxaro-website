@@ -51,7 +51,7 @@ export const PracticalApproach = () => {
         {/* PRACTICAL APPROACH */}
         <div id="practicalApproach-heading" className=" mb-12">
 
-          <h1 className=" practicalApproach-subHeading raleway font-semibold">
+          <h1 className=" practicalApproach-subHeading raleway font-semibold mr-6">
             <span className=" text-[#F56B00]"
             >Practical</span>  Approach</h1>
 
@@ -129,7 +129,7 @@ export const PracticalApproach = () => {
 
 
         {/* THE WHITE SVG LINE */}
-        <div id="practicalApproach-whiteSvgLine" className=" w-2 bg-white "></div>
+        <div id="practicalApproach-whiteSvgLine2" className=" w-2 bg-white "></div>
 
 
         {/* THE ORANGE SVG THINGY */}
