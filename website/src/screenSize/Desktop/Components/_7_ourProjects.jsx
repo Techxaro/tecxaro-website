@@ -13,7 +13,7 @@ export const ProjectsSection = () => {
 
         {/* OUR PROJECTS HEADING */}
         <div className="text-8xl raleway font-semibold mb-20">
-          <h1 className=" text-white">Our <span className=" color-orange">Projects</span></h1>
+          <h1 className=" text-white PS-heading">Our <span className=" color-orange">Projects</span></h1>
         </div>
 
 

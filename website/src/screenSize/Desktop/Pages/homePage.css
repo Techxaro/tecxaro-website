@@ -574,6 +574,7 @@
 #PS-main{
 
     width: 100%;
+    max-width: 1920px;
     height: 59rem;
     background-color: var(--grey);
 
@@ -589,6 +590,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.PS-heading{
+
+    margin-bottom: 4rem;
 }
 
 .PS-wrapper-project-cards{
