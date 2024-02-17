@@ -14,7 +14,7 @@
 /* HOME PAGE */
 #home-page-desktop-id{
     width: 100%;
-    height: 900vh;
+    /* height: 900vh; */
 
     background-color: #6c6c6c;
     display: flex;
@@ -692,3 +692,60 @@
     border: 12px solid white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT US SECTION  */
+#CUS-main{
+    width: 100%;
+    max-width: 1920px;
+    height: 59rem;
+    background-color: var(--grey);
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#CUS-wrapper{
+    width: 92.25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CUS-contactus-button{
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}

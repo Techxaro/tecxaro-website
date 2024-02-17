@@ -8,6 +8,7 @@ import { FocusOnInnovation } from "../Components/_5_whyChooseUs-3"
 import { TheOrangeBanner } from "../Components/_6_orangeBanner"
 import { ProjectsSection } from "../Components/_7_ourProjects"
 import { TeamSection } from "../Components/_8_ourTeam"
+import { ContactUsSection } from "../Components/_9_contactUs"
 
 // CSS
 import "./homePage.css"
@@ -24,6 +25,7 @@ export const HomePageDesktop = () => {
         <TheOrangeBanner/>
         <ProjectsSection/>
         <TeamSection/>
+        <ContactUsSection/>
     </div>
   )
 }
