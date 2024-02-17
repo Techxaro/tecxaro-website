@@ -65,3 +65,8 @@
     font-family: var(--raleway);
     color: white;
 }
+
+.PS-projectImg-edit{
+
+    border: 2px solid black;
+}
