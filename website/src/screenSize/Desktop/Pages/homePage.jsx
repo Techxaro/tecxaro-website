@@ -7,6 +7,7 @@ import { TailoredForYou } from "../Components/_4_whyChooseUs-2"
 import { FocusOnInnovation } from "../Components/_5_whyChooseUs-3"
 import { TheOrangeBanner } from "../Components/_6_orangeBanner"
 import { ProjectsSection } from "../Components/_7_ourProjects"
+import { TeamSection } from "../Components/_8_ourTeam"
 
 // CSS
 import "./homePage.css"
@@ -22,6 +23,7 @@ export const HomePageDesktop = () => {
         <FocusOnInnovation/>
         <TheOrangeBanner/>
         <ProjectsSection/>
+        <TeamSection/>
     </div>
   )
 }

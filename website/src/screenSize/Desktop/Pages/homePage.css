@@ -631,3 +631,64 @@
     color: white;
     padding: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE TEAM SECTION  */
+#TS-main{
+
+    width: 100%;
+    max-width: 1920px;
+    height: 59rem;
+    background-color: var(--grey);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TS-team-image-wrapper{
+
+    width: 1315px;
+    height: 31.8rem;
+    background-color: var(--lightGrey);
+
+    border: 12px solid white;
+}
+
