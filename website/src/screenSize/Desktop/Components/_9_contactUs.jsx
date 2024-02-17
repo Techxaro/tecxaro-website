@@ -2,6 +2,7 @@
 import linkedin from "../../../assets/svg/linkedin.svg"
 import whatsapp from "../../../assets/svg/whatsapp.svg"
 import youtube from "../../../assets/svg/youtube.svg"
+import tecxaroLogo from "../../../assets/svg/tecxaro-logo.svg"
 
 export const ContactUsSection = () => {
   return (
@@ -18,7 +19,7 @@ export const ContactUsSection = () => {
 
 
         {/* THE HEADING CONTACT US */}
-        <div className=" flex flex-col justify-center items-center mb-20">
+        <div className=" flex flex-col justify-center items-center mb-24">
 
 
           <div className="text-8xl raleway font-semibold ">
@@ -57,6 +58,9 @@ export const ContactUsSection = () => {
 
 
         {/* TECXARO LOGO */}
+        <div className="CUS-tecxaro-logo">
+          <img src={tecxaroLogo} alt="" />
+        </div>
 
       </div>
     </div>

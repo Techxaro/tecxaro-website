@@ -730,11 +730,13 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+
+    position: relative;
 }
 
 #CUS-wrapper{
     width: 92.25rem;
-
+    height: 37rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -747,5 +749,17 @@
     justify-content: center;
     align-items: center;
 
+    
+}
+
+.CUS-tecxaro-logo{
+
+   width: 15rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+    position: absolute;
+    bottom: 2rem;
     
 }
