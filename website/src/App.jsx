@@ -3,6 +3,7 @@ import { HomePageDesktop } from './screenSize/Desktop/Pages/homePage'
 
 
 import './App.css'
+import { HomePageMobile } from './screenSize/Mobile/Pages/homePageMobile';
 // import { HomePageMobile } from './screenSize/Mobile/Pages/homePageMobile';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   }else{
     return(
       <div>
-        This is the mobile version
+        <HomePageMobile/>
       </div>
     )
   }

@@ -1,6 +1,15 @@
+// IMPORTIN THE COMPONENTS HERE
+
+
+// IMPORTING THE CSS HERE
+import "./homePageMobile.css"
+
+
 
 export const HomePageMobile = () => {
-  return (
-    <d1iv>homePageMobile</d1iv>
-  )
+    return (
+        <div>
+            homePageMobile
+        </div>
+    )
 }
