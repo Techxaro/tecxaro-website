@@ -71,3 +71,26 @@
     border: 3px solid black;
 }
 
+.mobile-wrapper{
+    width: 17.875rem;
+    position: relative;
+    
+}
+
+.mobile-main{
+
+    width: 100%;
+    background-color: var(--grey);
+    /* background-color: white; */
+    
+
+    height: 50rem;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+

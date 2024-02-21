@@ -173,3 +173,83 @@
     bottom: -8.9375rem;
     right: -5rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT SECTION MOBILE */
+
+#ASM-main{
+
+    overflow: hidden;
+
+}
+
+
+.ASM-wrapper{
+
+    width: 19.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ASM-big-orange-circle{
+
+    width: 20rem;
+    height: 20rem;
+
+    background-color: var(--orange);
+    border-radius: 100%;
+
+    position: absolute;
+    top: -185px;
+    right: -79px;
+}
+
+
+.ASM-small-orange-circle{
+
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--orange);
+    border-radius: 100%;
+}
