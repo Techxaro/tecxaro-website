@@ -137,9 +137,9 @@
     width: 17.875rem;
 
     color: rgba(255, 255, 255, 21%);
-    position: absolute;
 
-    bottom: 13.5rem;
+    position: relative;
+    /* bottom: 13.5rem; */
 }
 
 
@@ -150,6 +150,15 @@
 
 }
 
+
+.HSM-contactUs{
+
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.3125rem;
+
+    /* position: re; */
+}
 
 .HSM-orangeCircle {
 
