@@ -23,7 +23,7 @@ export const Navbar = () => {
 
                 {/* JOIN US BUTTON */}
                 <a className="Nav-joinUs-button">
-                    <p className=" text-white">Join <span className="color-orange">Us</span></p>
+                    <p className=" text-white font-semibold">Join <span className="color-orange">Us</span></p>
                 </a>
 
 
