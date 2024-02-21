@@ -5,7 +5,7 @@ import aboutUsSectionImg from "../../../assets/jpg/mobile-version-AboutUs.jpg"
 
 export const AboutSectionMobile = () => {
   return (
-    <div id="ASM-main" className="mobile-main">
+    <div id="ASM-main" className="mobile-main mb-20">
 
 
 

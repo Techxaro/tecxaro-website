@@ -269,7 +269,7 @@
 .ASM-paragraphSection{
 
     color: white;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
@@ -307,6 +307,8 @@
     color: white;
 
     position: relative;
+
+    /* margin-bottom: 5rem; */
 }
 
 
@@ -326,7 +328,7 @@
 
 
 .WCU-M-firstParagraph{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .WCU-M-practicalApproach-subHeading{
@@ -349,6 +351,83 @@
 
 .WCU-M-secondPara{
 
-    font-size: 13px;
+    font-size: 12px;
     text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TAILOURED FOR YOU */
+#TFY-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    color: white;
+
+    position: relative;
+
+    margin-top: 5rem;
+}
+
+
+#TFY-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20.875rem;
+}
+
+.TFY-smallOrange-circle{
+    width: 10rem;
+    height: 10rem;
+
+    position: absolute;
+    background-color: var(--orange);
+
+    border-radius: 100%;
+
+    top: -37px;
+    left: -5px;
+}
+
+.TFY-heading{
+
+    font-size: 1.7125rem;
+}
+
+
+.TFY-M-paragraph{
+
+    font-size: 12px;
 }
