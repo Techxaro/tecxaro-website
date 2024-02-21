@@ -305,6 +305,8 @@
     align-items: center;
 
     color: white;
+
+    position: relative;
 }
 
 
@@ -318,4 +320,29 @@
     align-items: center;
 }
 
+.WCU-M-heading{
+    font-size: 2.325rem;
+}
 
+
+.WCU-M-firstParagraph{
+    font-size: 13px;
+}
+
+.WCU-M-practicalApproach-subHeading{
+    font-size: 1.5125rem;
+}
+
+.WCU-small-orange-circle{
+
+    width: 10rem;
+    height: 10rem;
+
+    border-radius: 100%;
+
+    background-color: var(--orange);
+    position: absolute;
+
+    top: 161px;
+    left: -47px;
+}
