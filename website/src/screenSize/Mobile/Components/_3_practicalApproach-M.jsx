@@ -1,5 +1,5 @@
 // IMPORTING IMAGES
-import esp32MobileVersion from  "../../../assets/png/mobile-version-esp32.png"
+import esp32MobileVersion from  "../../../assets/png/esp32Img.png"
 
 
 export const WhyChooseUs = () => {
@@ -40,8 +40,16 @@ export const WhyChooseUs = () => {
 
 
             {/* ESP 32 IMAGE */}
-            <div className=" normal-z">
+            <div className=" normal-z mb-12">
                 <img src={esp32MobileVersion} alt="" />
+            </div>
+
+
+
+
+            {/* ESP32 SECOND PARAGRAPH */}
+            <div className=" WCU-M-secondPara">
+                <p className=" dmMono">The <span className="text-orange-Bhighlight">ESP32</span>, a versatile microcontroller, excels in wireless applications with support for Wi-Fi and Bluetooth. Its <span className=" text-orange-highlight">dual-core processor</span>, rich peripherals, and Arduino compatibility make it a preferred choice. With energy efficiency for battery-powered use, it&apos;s ideal for diverse projects. As an open-source platform, the ESP32 encourages collaboration and <span className=" text-orange-highlight">rapid prototyping</span> in electronics and IoT, combining affordability with ease of use.</p>
             </div>
         </div>
     </div>
