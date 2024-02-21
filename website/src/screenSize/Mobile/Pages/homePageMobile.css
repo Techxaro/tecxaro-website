@@ -226,9 +226,10 @@
 .ASM-wrapper{
 
     width: 19.875rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -252,4 +253,21 @@
     height: 10rem;
     background-color: var(--orange);
     border-radius: 100%;
+
+    position: absolute;
+    top: 211px;
+    left: -16px;
+}
+
+.ASM-aboutUs-headingSection{
+
+    font-size: 2.325rem;
+    color: white;
+}
+
+
+.ASM-paragraphSection{
+
+    color: white;
+    font-size: 13px;
 }

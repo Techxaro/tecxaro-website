@@ -94,3 +94,25 @@
 
 }
 
+.circle-z{
+    z-index: +3;
+}
+
+.normal-z{
+    z-index: +5;
+}
+
+.text-orange-highlight{
+
+    font-size: 17px;
+    line-height: 17px;
+
+    color: var(--orange);
+}
+
+.text-orange-Bhighlight{
+
+    background-color: var(--orange);
+    padding: 0px 4px 0px 4px;
+}
+
