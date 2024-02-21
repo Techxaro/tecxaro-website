@@ -2,6 +2,7 @@
 
 
 // IMPORTING THE CSS HERE
+import { Navbar } from "../Components/_0_navbar-M"
 import "./homePageMobile.css"
 
 
@@ -9,7 +10,7 @@ import "./homePageMobile.css"
 export const HomePageMobile = () => {
     return (
         <div>
-            homePageMobile
+            <Navbar/>
         </div>
-    )
-}
+    )   
+}                                           
