@@ -44,7 +44,7 @@ export const AboutSectionMobile = () => {
 
 
             {/* ABOUT US HEADING */}
-            <div className=" normal-z w-[100%] raleway mb-8">
+            <div className=" normal-z w-[100%] raleway mb-4">
                 <h1 className=" ASM-aboutUs-headingSection font-semibold">About <span className="color-orange">Us</span></h1>
             </div>
 

@@ -5,6 +5,7 @@
 import { Navbar } from "../Components/_0_navbar-M"
 import { HeroSectionMobile } from "../Components/_1_heroSection-M"
 import { AboutSectionMobile } from "../Components/_2_aboutUs-M"
+import { WhyChooseUs } from "../Components/_3_practicalApproach-M"
 import "./homePageMobile.css"
 
 
@@ -15,6 +16,7 @@ export const HomePageMobile = () => {
             <Navbar/>
             <HeroSectionMobile/>
             <AboutSectionMobile/>
+            <WhyChooseUs/>
         </div>
     )   
 }                                           

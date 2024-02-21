@@ -225,7 +225,7 @@
 
 .ASM-wrapper{
 
-    width: 19.875rem;
+    width: 20.875rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -271,3 +271,51 @@
     color: white;
     font-size: 13px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WHY CHOOSE US SECTION */
+#WCU-main{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+
+#WCU-wrapper{
+
+    width: 20.875rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
