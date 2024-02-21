@@ -1,5 +1,10 @@
 /* GLOBAL THINGS TO BE MENTIONED HERE */
+#homePage-mobile-main{
+    background-color: var(--grey);
+    height: 800vh;
 
+    width: 100%;
+}
 
 
 
@@ -12,5 +17,33 @@
     width: 100%;
     height: 4rem;
 
-    background-color: red;
+    background-color: var(--grey);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* box-shadow: 0rem 2px 20px  black; */
+}
+
+#Nav-wrapper{
+
+    width: 88.89%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Nav-tecxaroLogo-edit{
+    width: 6rem;
+}
+
+.Nav-joinUs-button{
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px ;
 }

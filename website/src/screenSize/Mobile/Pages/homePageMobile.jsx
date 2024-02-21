@@ -9,7 +9,7 @@ import "./homePageMobile.css"
 
 export const HomePageMobile = () => {
     return (
-        <div>
+        <div id="homePage-mobile-main"> 
             <Navbar/>
         </div>
     )   
