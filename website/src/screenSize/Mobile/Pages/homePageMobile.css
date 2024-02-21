@@ -1,5 +1,11 @@
 /* GLOBAL THINGS TO BE MENTIONED HERE */
+#homePage-mobile-main {
+    background-color: var(--grey);
+    height: 800vh;
 
+    width: 100%;
+
+}
 
 
 
@@ -8,9 +14,420 @@
 /* NAVBAR */
 
 
-#Nav-main{
+#Nav-main {
     width: 100%;
     height: 4rem;
 
-    background-color: red;
+    background-color: var(--grey);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: +100;
+
+    /* box-shadow: 0rem 2px 20px  black; */
+}
+
+#Nav-wrapper {
+
+    width: 88.89%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Nav-tecxaroLogo-edit {
+    width: 6rem;
+}
+
+.Nav-joinUs-button {
+    border: 2px solid white;
+    padding: 4px 10px 4px 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HERO SECTION */
+
+#HS-main {
+
+    width: 100%;
+    height: 100svh;
+
+    background-color: var(--grey);
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#HSM-heading {
+    color: white;
+    font-size: 13px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 17.875rem;
+
+}
+
+
+.HSM-robotics-heading {
+    font-size: 3.6375rem;
+    line-height: 3.25rem;
+
+    position: relative;
+    right: 2px;
+}
+
+
+.HSM-easyPractical-lv2Heading {
+    font-size: 2.325rem;
+    line-height: 30px;
+}
+
+
+.HSM-subtitleSection {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 17.875rem;
+
+    color: rgba(255, 255, 255, 21%);
+
+    position: relative;
+    /* bottom: 13.5rem; */
+}
+
+
+.HSM-subtitle{
+
+    font-size: 0.8125rem;
+    line-height: 0.8125rem;
+
+}
+
+
+.HSM-contactUs{
+
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.3125rem;
+
+    /* position: re; */
+}
+
+.HSM-orangeCircle {
+
+    width: 20rem;
+    height: 20rem;
+
+    background-color: var(--orange);
+    border-radius: 100%;
+
+    position: absolute;
+
+    bottom: -8.9375rem;
+    right: -5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT SECTION MOBILE */
+
+#ASM-main{
+
+    overflow: hidden;
+
+}
+
+
+.ASM-wrapper{
+
+    width: 20.875rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ASM-big-orange-circle{
+
+    width: 20rem;
+    height: 20rem;
+
+    background-color: var(--orange);
+    border-radius: 100%;
+
+    position: absolute;
+    top: -185px;
+    right: -79px;
+}
+
+
+.ASM-small-orange-circle{
+
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--orange);
+    border-radius: 100%;
+
+    position: absolute;
+    top: 211px;
+    left: -16px;
+}
+
+.ASM-aboutUs-headingSection{
+
+    font-size: 2.325rem;
+    color: white;
+}
+
+
+.ASM-paragraphSection{
+
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WHY CHOOSE US SECTION */
+#WCU-main{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    position: relative;
+
+    /* margin-bottom: 5rem; */
+}
+
+
+#WCU-wrapper{
+
+    width: 20.875rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.WCU-M-heading{
+    font-size: 2.325rem;
+}
+
+
+.WCU-M-firstParagraph{
+    font-size: 12px;
+}
+
+.WCU-M-practicalApproach-subHeading{
+    font-size: 1.5125rem;
+}
+
+.WCU-small-orange-circle{
+
+    width: 10rem;
+    height: 10rem;
+
+    border-radius: 100%;
+
+    background-color: var(--orange);
+    position: absolute;
+
+    top: 161px;
+    left: -47px;
+}
+
+.WCU-M-secondPara{
+
+    font-size: 12px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TAILOURED FOR YOU */
+#TFY-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    color: white;
+
+    position: relative;
+
+    margin-top: 5rem;
+}
+
+
+#TFY-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20.875rem;
+}
+
+.TFY-smallOrange-circle{
+    width: 10rem;
+    height: 10rem;
+
+    position: absolute;
+    background-color: var(--orange);
+
+    border-radius: 100%;
+
+    top: -37px;
+    left: -5px;
+}
+
+.TFY-heading{
+
+    font-size: 1.7125rem;
+}
+
+
+.TFY-M-paragraph{
+
+    font-size: 12px;
 }

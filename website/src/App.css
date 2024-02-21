@@ -71,3 +71,48 @@
     border: 3px solid black;
 }
 
+.mobile-wrapper{
+    width: 20.875rem;
+    position: relative;
+    
+}
+
+.mobile-main{
+
+    width: 100%;
+    background-color: var(--grey);
+    /* background-color: white; */
+    
+
+    /* height: 47rem; */
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle-z{
+    z-index: +3;
+}
+
+.normal-z{
+    z-index: +5;
+}
+
+.text-orange-highlight{
+
+    font-size: 17px;
+    line-height: 17px;
+
+    color: var(--orange);
+}
+
+.text-orange-Bhighlight{
+
+    background-color: var(--orange);
+    padding: 0px 4px 0px 4px;
+}
+
