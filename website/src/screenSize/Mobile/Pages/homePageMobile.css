@@ -639,3 +639,101 @@
     align-items: center;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OUR PROJECT SECTION */
+#OPS-M-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#OPS-M-wrapper{
+    width: 20.875rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#OPS-M-projectCardWrapper{
+    width: 100%;
+    /* height: 10rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECT CARD SECTION */
+
+#PC-M-main{
+    width: 100%;
+    background-color: var(--lightGrey);
+    padding: 1rem;
+
+    margin-bottom: 5rem;
+}
+
+#PC-M-wrapper{
+    width: 100%;
+    /* height: 10rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PC-M-projectHeading{
+    
+}
