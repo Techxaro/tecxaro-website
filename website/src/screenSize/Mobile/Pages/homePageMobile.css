@@ -719,9 +719,12 @@
 #PC-M-main{
     width: 100%;
     background-color: var(--lightGrey);
-    padding: 1rem;
+    padding: 1.2rem;
+
 
     margin-bottom: 5rem;
+
+    box-shadow: 10px 10px var(--orange);
 }
 
 #PC-M-wrapper{
@@ -734,6 +737,20 @@
     align-items: center;
 }
 
+.PC-M-projectImg{
+    border: 3px solid black;
+}
+
 .PC-M-projectHeading{
-    
+    font-size: 1.95rem;
+}
+
+.PC-M-projectParagraph{
+    font-size: 13px;
+}
+
+.PC-M-learnMoreButton{
+    background-color: var(--orange);
+    /* color: white; */
+    padding: 4px 10px;
 }
