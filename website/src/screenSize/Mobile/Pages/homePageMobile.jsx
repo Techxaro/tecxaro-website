@@ -8,6 +8,7 @@ import { AboutSectionMobile } from "../Components/_2_aboutUs-M"
 import { WhyChooseUs } from "../Components/_3_practicalApproach-M"
 import { TailouredForYou } from "../Components/_4_tailouredForYou"
 import { FocusOnInnovation } from "../Components/_5_focusOnInnovation"
+import { SolvingRealWorldProblems } from "../Components/_6_solvingRealWorldProblems"
 import "./homePageMobile.css"
 
 
@@ -21,6 +22,7 @@ export const HomePageMobile = () => {
             <WhyChooseUs/>
             <TailouredForYou/>
             <FocusOnInnovation/>
+            <SolvingRealWorldProblems/>
         </div>
     )   
 }                                           
