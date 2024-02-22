@@ -12,6 +12,7 @@ import { FocusOnInnovation } from "../Components/_5_focusOnInnovation"
 import { SolvingRealWorldProblems } from "../Components/_6_solvingRealWorldProblems"
 import { OurProjectSection } from "../Components/_7_ourProjects"
 import { OurTeamSection } from "../Components/_8_ourTeam"
+import { ContactUsSection } from "../Components/_9_ContactUs"
 
 
 
@@ -27,6 +28,7 @@ export const HomePageMobile = () => {
             <SolvingRealWorldProblems/>
             <OurProjectSection/>
             <OurTeamSection/>
+            <ContactUsSection/>
         </div>
     )   
 }                                           

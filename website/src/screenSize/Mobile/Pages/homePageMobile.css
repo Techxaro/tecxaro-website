@@ -1,7 +1,7 @@
 /* GLOBAL THINGS TO BE MENTIONED HERE */
 #homePage-mobile-main {
     background-color: var(--grey);
-    height: 1000vh;
+    /* height: 1000vh; */
 
     width: 100%;
 
@@ -860,6 +860,8 @@
     color: white;
 
     position: relative;
+
+    
 }
 
 #OTS-M-wrapper {
@@ -871,7 +873,7 @@
     align-items: center;
 }
 
-.OTS-M-smallOrange-circle{
+.OTS-M-smallOrange-circle {
 
     width: 10rem;
     height: 10rem;
@@ -885,7 +887,7 @@
     left: -65px;
 }
 
-.OTS-M-teamImg{
+.OTS-M-teamImg {
 
     width: 100%;
     height: 26.875rem;
@@ -893,4 +895,139 @@
     background-color: var(--lightGrey);
     border: 15px solid white;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THE CONTACT US SECTION  */
+#CUS-M-main {
+    width: 100%;
+    height: 90svh;
+
+    background-color: var(--grey);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    position: relative;
+
+    overflow: hidden;
+
+    margin-top: 8rem;
+
+}
+
+#CUS-M-wrapper {
+
+    width: var(--df-width-mob);
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: center; */
+    align-items: center;
+
+    height: 100%;
+}
+
+
+.CUS-M-headingWrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CUS-M-heading{
+
+    font-size: 2.325rem;
+    line-height: 2.1rem;
+}
+
+
+.CUS-smallOrange-circle{
+    width: 10rem;
+    height: 10rem;
+
+    background-color: var(--orange);
+    position: absolute;
+
+    border-radius: 100%;
+
+    left: -78px;
+    top: -12px;
+}
+
+
+.CUS-M-subTitle{
+    font-size: 13px;
+}
+
+.CUS-M-tecxaroLogo{
+    position: absolute;
+    bottom: 2rem;
+}
+
+.CUS-M-socialLogos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.CUS-M-contactUs-button{
+    background-color: var(--lightGrey);
+    color: black;
+
+    font-size: 1.5rem;
+    padding: 2px 15px;
+}
+
+.CUS-M-smallOrange-circle2{
+    width: 10rem;
+    height: 10rem;
+
+    background-color: var(--orange);
+
+    position: absolute;
+    border-radius: 100%;
+
+    bottom: -39px;
+    right: -67px;
 }
