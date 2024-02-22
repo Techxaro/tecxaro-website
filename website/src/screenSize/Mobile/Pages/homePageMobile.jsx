@@ -7,6 +7,7 @@ import { HeroSectionMobile } from "../Components/_1_heroSection-M"
 import { AboutSectionMobile } from "../Components/_2_aboutUs-M"
 import { WhyChooseUs } from "../Components/_3_practicalApproach-M"
 import { TailouredForYou } from "../Components/_4_tailouredForYou"
+import { FocusOnInnovation } from "../Components/_5_focusOnInnovation"
 import "./homePageMobile.css"
 
 
@@ -19,6 +20,7 @@ export const HomePageMobile = () => {
             <AboutSectionMobile/>
             <WhyChooseUs/>
             <TailouredForYou/>
+            <FocusOnInnovation/>
         </div>
     )   
 }                                           

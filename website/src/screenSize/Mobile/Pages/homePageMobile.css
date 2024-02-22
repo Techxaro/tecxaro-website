@@ -431,3 +431,93 @@
 
     font-size: 12px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOCUS ON INNOVATION SECTION */
+
+#FOI-M-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    color: white;
+
+    position: relative;
+    margin-top: 5rem;
+
+    /* overflow: hidden; */
+}
+
+#FOI-M-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20.875rem;
+    
+}
+
+.FOI-M-small-orange-circle{
+    width: 10rem;
+    height: 10rem;
+
+    background-color: var(--orange);
+    border-radius: 100%;
+
+    position: absolute;
+
+    top: -35px;
+    left: -32px;
+
+}
+
+.FOI-M-subheading{
+    font-size: 1.7125rem;
+}
+
+.FOI-M-paragraph{
+    font-size: 12px;
+}
+
+.FOI-M-impossibleQuote{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2.8rem;
+    line-height: 3rem;
+}
+
+.FOI-M-orangeHighlight{
+    background-color: var(--orange);
+    width: 6.8rem;
+}
