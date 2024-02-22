@@ -1,7 +1,7 @@
 /* GLOBAL THINGS TO BE MENTIONED HERE */
 #homePage-mobile-main {
     background-color: var(--grey);
-    /* height: 800vh; */
+    height: 1000vh;
 
     width: 100%;
 
@@ -143,7 +143,7 @@
 }
 
 
-.HSM-subtitle{
+.HSM-subtitle {
 
     font-size: 0.8125rem;
     line-height: 0.8125rem;
@@ -151,7 +151,7 @@
 }
 
 
-.HSM-contactUs{
+.HSM-contactUs {
 
     border: 2px solid white;
     padding: 5px 10px 5px 10px;
@@ -216,16 +216,16 @@
 
 /* ABOUT SECTION MOBILE */
 
-#ASM-main{
+#ASM-main {
 
     overflow: hidden;
 
 }
 
 
-.ASM-wrapper{
+.ASM-wrapper {
 
-    width: 20.875rem;
+    width: var(--df-width-mob);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -233,7 +233,7 @@
     align-items: center;
 }
 
-.ASM-big-orange-circle{
+.ASM-big-orange-circle {
 
     width: 20rem;
     height: 20rem;
@@ -247,7 +247,7 @@
 }
 
 
-.ASM-small-orange-circle{
+.ASM-small-orange-circle {
 
     width: 10rem;
     height: 10rem;
@@ -259,14 +259,14 @@
     left: -16px;
 }
 
-.ASM-aboutUs-headingSection{
+.ASM-aboutUs-headingSection {
 
     font-size: 2.325rem;
     color: white;
 }
 
 
-.ASM-paragraphSection{
+.ASM-paragraphSection {
 
     color: white;
     font-size: 12px;
@@ -297,7 +297,7 @@
 
 
 /* WHY CHOOSE US SECTION */
-#WCU-main{
+#WCU-main {
 
     width: 100%;
     display: flex;
@@ -312,9 +312,9 @@
 }
 
 
-#WCU-wrapper{
+#WCU-wrapper {
 
-    width: 20.875rem;
+    width: var(--df-width-mob);
     display: flex;
     flex-direction: column;
 
@@ -322,20 +322,20 @@
     align-items: center;
 }
 
-.WCU-M-heading{
+.WCU-M-heading {
     font-size: 2.325rem;
 }
 
 
-.WCU-M-firstParagraph{
+.WCU-M-firstParagraph {
     font-size: 12px;
 }
 
-.WCU-M-practicalApproach-subHeading{
+.WCU-M-practicalApproach-subHeading {
     font-size: 1.5125rem;
 }
 
-.WCU-small-orange-circle{
+.WCU-small-orange-circle {
 
     width: 10rem;
     height: 10rem;
@@ -349,7 +349,7 @@
     left: -47px;
 }
 
-.WCU-M-secondPara{
+.WCU-M-secondPara {
 
     font-size: 12px;
     text-align: left;
@@ -385,7 +385,7 @@
 
 
 /* TAILOURED FOR YOU */
-#TFY-main{
+#TFY-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -399,16 +399,16 @@
 }
 
 
-#TFY-wrapper{
+#TFY-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    width: 20.875rem;
+    width: var(--df-width-mob);
 }
 
-.TFY-smallOrange-circle{
+.TFY-smallOrange-circle {
     width: 10rem;
     height: 10rem;
 
@@ -421,13 +421,13 @@
     left: -5px;
 }
 
-.TFY-heading{
+.TFY-heading {
 
     font-size: 1.7125rem;
 }
 
 
-.TFY-M-paragraph{
+.TFY-M-paragraph {
 
     font-size: 12px;
 }
@@ -462,7 +462,7 @@
 
 /* FOCUS ON INNOVATION SECTION */
 
-#FOI-M-main{
+#FOI-M-main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -476,18 +476,18 @@
     /* overflow: hidden; */
 }
 
-#FOI-M-wrapper{
+#FOI-M-wrapper {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    width: 20.875rem;
-    
+    width: var(--df-width-mob);
+
 }
 
-.FOI-M-small-orange-circle{
+.FOI-M-small-orange-circle {
     width: 10rem;
     height: 10rem;
 
@@ -501,15 +501,15 @@
 
 }
 
-.FOI-M-subheading{
+.FOI-M-subheading {
     font-size: 1.7125rem;
 }
 
-.FOI-M-paragraph{
+.FOI-M-paragraph {
     font-size: 12px;
 }
 
-.FOI-M-impossibleQuote{
+.FOI-M-impossibleQuote {
     display: flex;
     flex-direction: column;
 
@@ -517,21 +517,21 @@
     line-height: 3.1rem;
 }
 
-.FOI-M-doubleQuote1{
+.FOI-M-doubleQuote1 {
 
     position: absolute;
     left: -2px;
     top: 1px;
 }
 
-.FOI-M-doubleQuote2{
+.FOI-M-doubleQuote2 {
 
     position: absolute;
     bottom: 35px;
     left: 131px;
 }
 
-.FOI-M-orangeHighlight{
+.FOI-M-orangeHighlight {
     background-color: var(--orange);
     width: 6.8rem;
 }
@@ -570,7 +570,7 @@
 
 
 /* SOLVING REAL WORLD PROBLEMS SECTION */
-#SRWP-M-main{
+#SRWP-M-main {
 
     width: 100%;
     display: flex;
@@ -584,47 +584,47 @@
     padding-top: 2.5rem;
 }
 
-#SRWP-M-wrapper{
+#SRWP-M-wrapper {
 
-    width: 20.875rem;
+    width: var(--df-width-mob);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.SRWP-M-orangeBox-quote{
+.SRWP-M-orangeBox-quote {
 
     display: flex;
     flex-direction: column;
     width: 100%;
 
-    
+
 }
 
-.SRWP-M-orangeBox-smallText{
+.SRWP-M-orangeBox-smallText {
 
     font-size: 1.5125rem;
     line-height: 2.7125rem;
 }
 
-.SRWP-M-orangeBox-mediumText{
+.SRWP-M-orangeBox-mediumText {
     font-size: 2.525rem;
     line-height: 3.125rem;
 }
 
-.SRWP-M-orangeBox-whiteHighlighted-text{
+.SRWP-M-orangeBox-whiteHighlighted-text {
     background-color: white;
     padding: 2px 10px 2px 10px;
 }
 
-.SRWP-M-joinUs-button-wrapper{
+.SRWP-M-joinUs-button-wrapper {
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-.SRWP-M-joinUs-button{
+.SRWP-M-joinUs-button {
 
     font-size: 1.7125rem;
     background-color: var(--lightGrey);
@@ -670,7 +670,7 @@
 
 
 /* OUR PROJECT SECTION */
-#OPS-M-main{
+#OPS-M-main {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -681,8 +681,8 @@
     position: relative;
 }
 
-#OPS-M-wrapper{
-    width: 20.875rem;
+#OPS-M-wrapper {
+    width: var(--df-width-mob);
     display: flex;
     flex-direction: column;
 
@@ -690,7 +690,7 @@
     align-items: center;
 }
 
-#OPS-M-projectCardWrapper{
+#OPS-M-projectCardWrapper {
     width: 100%;
     /* height: 10rem; */
 
@@ -702,19 +702,19 @@
     position: relative;
 }
 
-.OPS-M-headingSection{
+.OPS-M-headingSection {
     width: 100%;
     font-size: 2.325rem;
 }
 
-.OPS-M-subtitleSection{
+.OPS-M-subtitleSection {
     width: 100%;
 
     font-size: 13px;
 }
 
 
-.OPS-M-smallOrange-circle{
+.OPS-M-smallOrange-circle {
     width: 10rem;
     height: 10rem;
     background-color: var(--orange);
@@ -727,7 +727,7 @@
 }
 
 
-.OPS-M-proj1-X-logo{
+.OPS-M-proj1-X-logo {
 
     position: relative;
     bottom: 81px;
@@ -737,7 +737,7 @@
 }
 
 
-.OPS-M-smallOrange-circle-Project1{
+.OPS-M-smallOrange-circle-Project1 {
 
     width: 10rem;
     height: 10rem;
@@ -750,7 +750,7 @@
     top: 536px;
 }
 
-.OPS-M-smallOrange-circle-Project2{
+.OPS-M-smallOrange-circle-Project2 {
 
     width: 10rem;
     height: 10rem;
@@ -781,7 +781,7 @@
 
 /* PROJECT CARD SECTION */
 
-#PC-M-main{
+#PC-M-main {
     width: 100%;
     background-color: var(--lightGrey);
     padding: 1.2rem;
@@ -793,7 +793,7 @@
     color: black;
 }
 
-#PC-M-wrapper{
+#PC-M-wrapper {
     width: 100%;
     /* height: 10rem; */
 
@@ -803,21 +803,94 @@
     align-items: center;
 }
 
-.PC-M-projectImg{
+.PC-M-projectImg {
     border: 3px solid black;
 }
 
-.PC-M-projectHeading{
+.PC-M-projectHeading {
     font-size: 1.95rem;
 }
 
-.PC-M-projectParagraph{
+.PC-M-projectParagraph {
     font-size: 13px;
 }
 
-.PC-M-learnMoreButton{
+.PC-M-learnMoreButton {
     background-color: var(--orange);
     /* color: white; */
     padding: 4px 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OUR TEAM SECTION OF THE WEBSITE */
+
+#OTS-M-main {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    position: relative;
+}
+
+#OTS-M-wrapper {
+    width: var(--df-width-mob);
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.OTS-M-smallOrange-circle{
+
+    width: 10rem;
+    height: 10rem;
+
+    background-color: var(--orange);
+    border-radius: 100%;
+
+    position: absolute;
+
+    top: -70px;
+    left: -65px;
+}
+
+.OTS-M-teamImg{
+
+    width: 100%;
+    height: 26.875rem;
+
+    background-color: var(--lightGrey);
+    border: 15px solid white;
+
+}

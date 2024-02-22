@@ -11,6 +11,7 @@ import { TailouredForYou } from "../Components/_4_tailouredForYou"
 import { FocusOnInnovation } from "../Components/_5_focusOnInnovation"
 import { SolvingRealWorldProblems } from "../Components/_6_solvingRealWorldProblems"
 import { OurProjectSection } from "../Components/_7_ourProjects"
+import { OurTeamSection } from "../Components/_8_ourTeam"
 
 
 
@@ -25,6 +26,7 @@ export const HomePageMobile = () => {
             <FocusOnInnovation/>
             <SolvingRealWorldProblems/>
             <OurProjectSection/>
+            <OurTeamSection/>
         </div>
     )   
 }                                           

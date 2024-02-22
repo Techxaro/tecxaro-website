@@ -41,7 +41,7 @@ export const OurProjectSection = () => {
 
         {/* HEADING FOR OUR PROJECTS */}
         <div className="OPS-M-headingSection mb-2 normal-z">
-          <h1 className=" raleway font-semibold">Our <span>Projects</span></h1>
+          <h1 className=" raleway font-semibold">Our <span className=" color-orange">Projects</span></h1>
         </div>
 
 
