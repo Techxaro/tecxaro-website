@@ -7,14 +7,28 @@ export const SolvingRealWorldProblems = () => {
   return (
     <div id="SRWP-M-main">
 
+
+
+
+
       {/* THE WRAPPER FOR THIS SECTION */}
       <div id="SRWP-M-wrapper">
+
+
+
+
+
 
 
         {/* THE X LOGO OF TECXARO */}
         <div className=" w-[100%] flex justify-end">
           <img src={xLogoOfTecxaro} alt="" />
         </div>
+
+
+
+
+
 
 
 
@@ -29,6 +43,10 @@ export const SolvingRealWorldProblems = () => {
 
           <span className=" SRWP-M-orangeBox-smallText">solutions</span>
         </div>
+
+
+
+
 
 
 
