@@ -471,7 +471,7 @@
     color: white;
 
     position: relative;
-    margin-top: 5rem;
+    margin-top: 8rem;
 
     /* overflow: hidden; */
 }
@@ -496,8 +496,8 @@
 
     position: absolute;
 
-    top: -35px;
-    left: -32px;
+    top: -39px;
+    left: -58px;
 
 }
 
@@ -514,7 +514,21 @@
     flex-direction: column;
 
     font-size: 2.8rem;
-    line-height: 3rem;
+    line-height: 3.1rem;
+}
+
+.FOI-M-doubleQuote1{
+
+    position: absolute;
+    left: -2px;
+    top: 1px;
+}
+
+.FOI-M-doubleQuote2{
+
+    position: absolute;
+    bottom: 35px;
+    left: 131px;
 }
 
 .FOI-M-orangeHighlight{

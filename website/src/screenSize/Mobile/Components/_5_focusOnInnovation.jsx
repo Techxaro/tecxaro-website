@@ -14,7 +14,7 @@ export const FocusOnInnovation = () => {
 
         {/* FOCUS ON INNOVATION SUBHEADING */}
         <div className=" w-[100%] raleway normal-z">
-          <h1 className=" FOI-M-subheading font-semibold">Focus on <span>Innovation</span></h1>
+          <h1 className=" FOI-M-subheading font-semibold">Focus on <span className=" color-orange">Innovation</span></h1>
         </div>
 
 
@@ -26,23 +26,28 @@ export const FocusOnInnovation = () => {
 
 
         {/* IT ALWAYS SEEMS IMPOSSIBLE QUOTE */}
-        <div className=" w-[100%] normal-z mt-6 mb-12">
-          <div className=" FOI-M-impossibleQuote dmMono"> 
-          <img className=" w-[1rem]" src={doubleQuotes} alt="" />
-          <span>It Always</span>
-          <span>Seems</span>
-          <span className=" text-[3.2rem] color-orange">Impossible</span>
-          <span>Until it&apos;s</span>
-          <span className="FOI-M-orangeHighlight">Done</span>
-          <img className=" w-[1.5rem]" src={doubleQuotes} alt="" />
-           </div>
+        <div className=" w-[100%] normal-z mt-12 mb-14 relative">
+
+          <div className=" FOI-M-impossibleQuote dmMono pl-4">
+
+            <img className=" w-[1rem] FOI-M-doubleQuote1" src={doubleQuotes} alt="" />
+
+            <span>It Always</span>
+            <span>Seems</span>
+            <span className=" text-[3.2rem] color-orange">Impossible</span>
+            <span>Until it&apos;s</span>
+            <span className="FOI-M-orangeHighlight">Done</span>
+
+            <img className=" w-[1rem] FOI-M-doubleQuote2" src={doubleQuotes} alt="" />
+
+          </div>
         </div>
 
 
 
         {/* THE PARAGRAPH FOR FOCUS ON INNOVATION SECTION */}
         <div className=" dmMono">
-          <p className=" FOI-M-paragraph">Tecxaro fosters innovation by encouraging creative thinking and hands-on learning. We guide students to apply theoretical knowledge practically, cultivating a mindset of innovation. Our focus on real-world impact inspires the next generation of innovators, ready to bring positive change through robotics and technology. Join us in the journey of exploration and active innovation cultivation.
+          <p className=" FOI-M-paragraph">Tecxaro fosters <span className=" text-orange-highlight">innovation</span> by encouraging creative thinking and hands-on learning. We guide students to <span className=" text-orange-Bhighlight">apply theoretical knowledge practically</span>, cultivating a mindset of innovation. Our focus on <span className=" text-orange-highlight">real-world impact</span> inspires the next generation of innovators, ready to bring positive change through robotics and technology. Join us in the journey of exploration and active innovation cultivation.
           </p>
         </div>
 
