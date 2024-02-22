@@ -7,7 +7,7 @@ import "../Pages/homePageMobile.css"
 
 export const ProjectCard = (props) => {
     return (
-        <div id='PC-M-main'>
+        <div id='PC-M-main' className='normal-z'>
 
 
             {/* WRAPPER */}
