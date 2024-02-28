@@ -934,7 +934,7 @@
 /* THE CONTACT US SECTION  */
 #CUS-M-main {
     width: 100%;
-    height: 90svh;
+    height: 100vh;
 
     background-color: var(--grey);
 
@@ -947,20 +947,21 @@
     position: relative;
 
     overflow: hidden;
-
-    margin-top: 8rem;
-
+    
+    /* margin-top: 8rem; */
+    padding-top: 8rem;
+    
 }
 
 #CUS-M-wrapper {
-
+    
     width: var(--df-width-mob);
     display: flex;
     flex-direction: column;
-
+    
     /* justify-content: center; */
     align-items: center;
-
+    
     height: 100%;
 }
 
