@@ -10,7 +10,7 @@ export const AboutUs = () => {
     <div id="AboutUs-section-homePage-D">
 
 
-      <div className="w-[92.25rem] mb-14 contentWrapper-aboutUs-D">
+      <div className=" mb-14 contentWrapper-aboutUs-D">
 
 
         {/* text wrapper div */}

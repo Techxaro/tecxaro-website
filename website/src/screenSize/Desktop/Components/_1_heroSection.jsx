@@ -35,7 +35,10 @@ export const HeroSection = () => {
 
 
         {/* THE SMALL LINES SUBS */}
-        <p className=" poppins font-semibold text-xl w-[61rem]">
+        <p className=" poppins font-semibold  
+        
+        2xl:text-xl
+         w-[61rem]">
 
           Join us on a pathway to excellence, where
           <span className=" text-[#F56B00] font-bold"> practical </span>,
