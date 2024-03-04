@@ -57,11 +57,66 @@
 
 }
 
+.N-D-tecxaro-logo {
+    width: 9rem;
+    margin-left: 6rem;
+}
+
 .joinUs-navbar {
     position: absolute;
     right: 6rem;
 
+    padding: 0.7rem 0rem;
 
+
+    font-size: 1.875rem;
+    /* 30px */
+    line-height: 2.25rem;
+    /* 36px */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1880px) {
+    #Navbar {
+        background-color: var(--grey);
+        width: 100%;
+        max-width: 1920px;
+        height: 5rem;
+
+        display: flex;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+
+        z-index: +100;
+
+    }
+
+    .N-D-tecxaro-logo {
+        margin-left: 6rem;
+        width: 8rem;
+    }
+
+    .joinUs-navbar {
+        position: absolute;
+        right: 6rem;
+
+        padding: 0.25rem 0rem;
+        font-size: 1.6rem;
+
+    }
 }
 
 
@@ -109,7 +164,7 @@
 }
 
 
-.HS-D-subtitles{
+.HS-D-subtitles {
     font-size: 1.25rem;
     line-height: 1.75rem;
 
@@ -143,13 +198,13 @@
 
 @media (max-width: 1684px) {
 
-    .heroSection-main-highlight{
+    .heroSection-main-highlight {
         font-size: 5.2rem;
         line-height: 4.5rem;
-        
+
     }
 
-    .HS-D-subtitles{
+    .HS-D-subtitles {
         font-size: 1rem;
         line-height: 1.45rem;
 
@@ -181,6 +236,12 @@
 
 
 
+
+
+
+
+
+
 /* ABOUT US SECTION HOME PAGE */
 #AboutUs-section-homePage-D {
 
@@ -196,10 +257,11 @@
 
     /* background-color: red; */
     background-color: var(--grey);
-
+    
 }
 
 .contentWrapper-aboutUs-D {
+    /* margin-top: -2vh; */
     width: 92.25rem;
 }
 
@@ -232,6 +294,10 @@
 }
 
 
+.AU-D-imgEdit{
+
+    width: 29rem;
+}
 
 
 
@@ -246,13 +312,16 @@
 
 
 
+@media (max-width: 1800px) {
+    
+}
 
 
 @media (max-width: 1669px) {
-    
+
 
     .contentWrapper-aboutUs-D {
-        width: 85%;
+        width: 88%;
     }
 
 }
