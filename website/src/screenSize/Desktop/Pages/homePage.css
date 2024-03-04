@@ -432,20 +432,20 @@
 
 }
 
+
+#practicalApproach-whyChooseUs {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
 #practicalApproach-smallPara1 {
 
     width: 53%;
 
 }
-
-#practicalApproach-whyChooseUs {
-
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-
 
 #practicalApproach-heading {
 
@@ -529,9 +529,10 @@
 
 #tailouredforyou-wrapper {
 
-    width: 92.25rem;
+    max-width: 92.25rem;
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -558,7 +559,56 @@
     justify-content: center;
     align-items: flex-end;
 
+    
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1800PX TAILOURED FOR YOU */
+
+@media (max-width: 1800px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 1774px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 1750px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 25px;
+    }
+}
+
+
+@media (max-width: 1728px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 1710px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 34px;
+    }
 }
 
 
@@ -576,24 +626,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* WHY CHOOSE US PART 3 */
-
-
 
 
 /* FOCUS ON INNOVATION */
@@ -625,6 +658,68 @@
     flex-direction: column;
 
     align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1800PX TAILOURED FOR YOU */
+
+@media (max-width: 1800px) {
+    .FOI-text-part{
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 1774px) {
+    .FOI-text-part{
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 1750px) {
+    .FOI-text-part{
+        margin-right: 25px;
+    }
+}
+
+
+@media (max-width: 1728px) {
+    .FOI-text-part{
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 1710px) {
+    .FOI-text-part{
+        margin-right: 34px;
+    }
 }
 
 
@@ -879,7 +974,8 @@
 #CUS-main {
     width: 100%;
     max-width: 1920px;
-    height: 59rem;
+    /* height: 59rem; */
+    height: 100vh;
     background-color: var(--grey);
 
     display: flex;
@@ -891,7 +987,7 @@
 
 #CUS-wrapper {
     width: 92.25rem;
-    height: 37rem;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
