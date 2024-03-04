@@ -36,14 +36,12 @@ export const HeroSection = () => {
 
         {/* THE SMALL LINES SUBS */}
         <p className=" poppins font-semibold  
-        
-        2xl:text-xl
-         w-[61rem]">
+        HS-D-subtitles">
 
           Join us on a pathway to excellence, where
-          <span className=" text-[#F56B00] font-bold"> practical </span>,
-          <span className=" text-[#F56B00] font-bold"> technical </span>and
-          <span className=" text-[#F56B00] font-bold"> experiential learning </span>
+          <span className=" color-orange font-bold"> practical </span>,
+          <span className=" color-orange font-bold"> technical </span>and
+          <span className=" color-orange font-bold"> experiential learning </span>
           converge to shape your skills and empower your mind for real-world success.</p>
 
 
