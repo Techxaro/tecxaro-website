@@ -12,7 +12,7 @@
 
 
 /* HOME PAGE */
-#home-page-desktop-id{
+#home-page-desktop-id {
     width: 100%;
     /* height: 900vh; */
 
@@ -41,14 +41,14 @@
 
 
 /* NAVBAR -------- navbar */
-#Navbar{
+#Navbar {
     background-color: var(--grey);
     width: 100%;
     max-width: 1920px;
     height: 6rem;
 
     display: flex;
-    align-items:center;
+    align-items: center;
 
     position: fixed;
     top: 0;
@@ -57,10 +57,10 @@
 
 }
 
-.joinUs-navbar{
+.joinUs-navbar {
     position: absolute;
     right: 6rem;
-    
+
 
 }
 
@@ -85,31 +85,38 @@
 
 /* HERO SECTION */
 
-#HeroSection{
+#HeroSection {
     width: 100%;
     max-width: 1920px;
     height: 100vh;
-    
-    
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     text-align: center;
-    
+
     background-color: var(--grey);
-    
+
 }
 
 
-.heroSection-main-highlight{
+.heroSection-main-highlight {
     font-size: 6rem;
     line-height: 5.5rem;
 }
 
 
-#scrolling-down-animation-hero-section{
+.HS-D-subtitles{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+
+    width: 61rem;
+}
+
+#scrolling-down-animation-hero-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,37 +132,28 @@
 
 /* 1855px HERO SECTION DESKTOP */
 
-@media (max-width: 1855px) {
-   
-    #HeroSection{
-        width: 100%;
-        max-width: 1920px;
-        height: 100vh;
-        
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        text-align: center;
-        
-        background-color: var(--grey);
-        
-    }
-    
-    
-    .heroSection-main-highlight{
+@media (max-width: 1900px) {
+
+    .heroSection-main-highlight {
         font-size: 5.5rem;
         line-height: 5rem;
     }
-    
-    
-    #scrolling-down-animation-hero-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+}
+
+@media (max-width: 1684px) {
+
+    .heroSection-main-highlight{
+        font-size: 5.2rem;
+        line-height: 4.5rem;
+        
+    }
+
+    .HS-D-subtitles{
+        font-size: 1rem;
+        line-height: 1.45rem;
+
+        width: 49rem;
     }
 }
 
@@ -163,37 +161,12 @@
 
 /* 1280px HERO SECTION */
 @media (max-width: 1536px) {
-   
-    #HeroSection{
-        width: 100%;
-        max-width: 1920px;
-        height: 100vh;
-        
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        text-align: center;
-        
-        background-color: var(--grey);
-        
-    }
-    
-    
-    .heroSection-main-highlight{
+
+    .heroSection-main-highlight {
         font-size: 4rem;
-        line-height:3.5rem;
+        line-height: 3.5rem;
     }
-    
-    
-    #scrolling-down-animation-hero-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+
 }
 
 
@@ -209,14 +182,14 @@
 
 
 /* ABOUT US SECTION HOME PAGE */
-#AboutUs-section-homePage-D{
+#AboutUs-section-homePage-D {
 
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    
+
     width: 100%;
     max-width: 1920px;
     height: 59rem;
@@ -226,29 +199,29 @@
 
 }
 
-.contentWrapper-aboutUs-D{
+.contentWrapper-aboutUs-D {
     width: 92.25rem;
 }
 
-#text-wrapper-aboutUs-D{
+#text-wrapper-aboutUs-D {
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: center;
 
     width: 51%;
-    
+
 }
 
 
-.para1-aboutUs-D{
+.para1-aboutUs-D {
 
     font-size: 1.175rem;
     line-height: 30px;
 }
 
 
-.contentWrapper-aboutUs-D{
+.contentWrapper-aboutUs-D {
 
     height: 60%;
 
@@ -260,57 +233,28 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1669px) {
-    #AboutUs-section-homePage-D{
-
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     
-        
-        width: 100%;
-        max-width: 1920px;
-        height: 59rem;
-    
-        /* background-color: red; */
-        background-color: var(--grey);
-    
-    }
 
-
-    .contentWrapper-aboutUs-D{
+    .contentWrapper-aboutUs-D {
         width: 85%;
     }
-    
-    
-    #text-wrapper-aboutUs-D{
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        justify-content: center;
-    
-        width: 51%;
-        
-    }
-    
-    
-    .para1-aboutUs-D{
-    
-        font-size: 1.175rem;
-        line-height: 30px;
-    }
-    
-    
-    .contentWrapper-aboutUs-D{
-    
-        height: 60%;
-    
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    
-    }
+
 }
 
 
@@ -329,7 +273,7 @@
 
 /* THE SVG THINGY FOR THE WEBSITE */
 
-.the-svgThingy-for-the-website{
+.the-svgThingy-for-the-website {
 
     width: 10rem;
     height: 130rem;
@@ -345,10 +289,10 @@
 
 
     z-index: +2;
-    
+
 }
 
-#practicalApprach-orangeSvgThingy{
+#practicalApprach-orangeSvgThingy {
 
     position: relative;
     /* bottom: 1rem; */
@@ -356,7 +300,7 @@
 }
 
 
-#practicalApproach-whiteSvgLine{
+#practicalApproach-whiteSvgLine {
 
     height: 52rem;
     position: relative;
@@ -365,7 +309,7 @@
 }
 
 
-#practicalApprach-orangeSvgThingy2{
+#practicalApprach-orangeSvgThingy2 {
 
     position: relative;
     /* bottom: 0.98rem; */
@@ -373,7 +317,7 @@
 }
 
 
-#practicalApproach-whiteSvgLine2{
+#practicalApproach-whiteSvgLine2 {
 
     height: 58rem;
     position: relative;
@@ -402,7 +346,7 @@
 
 
 /* PRACTICAL APPROACH SECTION */
-#practicalApproach-section-homePage-D{
+#practicalApproach-section-homePage-D {
 
     display: flex;
     justify-content: center;
@@ -419,13 +363,13 @@
 
 }
 
-#practicalApproach-smallPara1{
+#practicalApproach-smallPara1 {
 
     width: 53%;
 
 }
 
-#practicalApproach-whyChooseUs{
+#practicalApproach-whyChooseUs {
 
     width: 100%;
     display: flex;
@@ -434,7 +378,7 @@
 }
 
 
-#practicalApproach-heading{
+#practicalApproach-heading {
 
     width: 100%;
     display: flex;
@@ -443,14 +387,14 @@
 
 }
 
-#practicalApproach-paragraph2{  
+#practicalApproach-paragraph2 {
     width: 50%;
 
 }
 
 
 
-#wrapper-practicalApproach-section-homePage{
+#wrapper-practicalApproach-section-homePage {
 
     color: white;
     width: 92.25rem;
@@ -462,12 +406,12 @@
 
 
 
-.practicalApproach-subHeading{
+.practicalApproach-subHeading {
 
     font-size: 3rem;
 }
 
-#practicalApproach-esp32img{
+#practicalApproach-esp32img {
 
     position: relative;
     bottom: 3rem;
@@ -494,7 +438,7 @@
 
 
 /* TAILOURED FOR YOU */
-#TailouredForYou-whyChooseUs{
+#TailouredForYou-whyChooseUs {
 
     display: flex;
     justify-content: center;
@@ -514,7 +458,7 @@
 
 
 
-#tailouredforyou-wrapper{
+#tailouredforyou-wrapper {
 
     width: 92.25rem;
     display: flex;
@@ -522,13 +466,13 @@
 }
 
 
-.whyChooseUs-subheading{
+.whyChooseUs-subheading {
 
     font-size: 3rem;
 }
 
 
-.mainPara-tailourMadeForYou{
+.mainPara-tailourMadeForYou {
 
     /* width: 50%; */
     font-size: 1.175rem;
@@ -537,8 +481,8 @@
     text-align: left;
 }
 
-.text-wrapper-tailourMadeForYou{
-    
+.text-wrapper-tailourMadeForYou {
+
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -573,7 +517,7 @@
 
 
 /* FOCUS ON INNOVATION */
-#FOI-main{
+#FOI-main {
     background-color: var(--grey);
     width: 100%;
     max-width: 1920px;
@@ -585,7 +529,7 @@
     align-items: center;
 }
 
-.FOI-wrapper{
+.FOI-wrapper {
 
     width: 92.25rem;
 
@@ -594,8 +538,8 @@
     align-items: center;
 }
 
-.FOI-text-part{
-    
+.FOI-text-part {
+
     width: 53%;
     display: flex;
     flex-direction: column;
@@ -628,7 +572,7 @@
 
 
 /* THE ORANGE BANNER SECTION */
-#TOB-main{
+#TOB-main {
     background-color: var(--orange);
     width: 100%;
     max-width: 1920px;
@@ -640,29 +584,29 @@
     align-items: center;
 }
 
-.TOB-wrapper{
+.TOB-wrapper {
     width: 92.25rem;
 
     display: flex;
     justify-content: space-between;
 }
 
-.TOB-bolded{
+.TOB-bolded {
     font-size: 3rem;
 }
 
-.TOB-background{
+.TOB-background {
     background-color: white;
     padding: 2px 8px 0 8px;
 }
 
-.TOB-lineBelow{
+.TOB-lineBelow {
     position: relative;
     top: 1.2rem;
     left: 12rem;
 }
 
-.TOB-joinUs-button{
+.TOB-joinUs-button {
 
     font-size: 3rem;
     background-color: var(--lightGrey);
@@ -702,7 +646,7 @@
 
 
 
-#PS-main{
+#PS-main {
 
     width: 100%;
     max-width: 1920px;
@@ -714,7 +658,7 @@
     align-items: center;
 }
 
-#PS-wrapper{
+#PS-wrapper {
 
     width: 92.25rem;
 
@@ -723,12 +667,12 @@
     align-items: center;
 }
 
-.PS-heading{
+.PS-heading {
 
     margin-bottom: 4rem;
 }
 
-.PS-wrapper-project-cards{
+.PS-wrapper-project-cards {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -737,7 +681,7 @@
 
 }
 
-.PS-project-card-main{
+.PS-project-card-main {
     display: flex;
     flex-direction: column;
 
@@ -751,13 +695,13 @@
 
 }
 
-.PS-project-card-para{
+.PS-project-card-para {
 
     line-height: 1.3rem;
 }
 
-.PS-project-card-learnMore-button{
-    
+.PS-project-card-learnMore-button {
+
     background-color: var(--orange);
     color: white;
     padding: 1rem;
@@ -801,7 +745,7 @@
 
 
 /* THE TEAM SECTION  */
-#TS-main{
+#TS-main {
 
     width: 100%;
     max-width: 1920px;
@@ -814,7 +758,7 @@
     align-items: center;
 }
 
-.TS-team-image-wrapper{
+.TS-team-image-wrapper {
 
     width: 1315px;
     height: 31.8rem;
@@ -852,7 +796,7 @@
 
 
 /* CONTACT US SECTION  */
-#CUS-main{
+#CUS-main {
     width: 100%;
     max-width: 1920px;
     height: 59rem;
@@ -860,12 +804,12 @@
 
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 
     position: relative;
 }
 
-#CUS-wrapper{
+#CUS-wrapper {
     width: 92.25rem;
     height: 37rem;
     display: flex;
@@ -873,24 +817,24 @@
     align-items: center;
 }
 
-.CUS-contactus-button{
+.CUS-contactus-button {
 
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    
+
 }
 
-.CUS-tecxaro-logo{
+.CUS-tecxaro-logo {
 
-   width: 15rem;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
     position: absolute;
     bottom: 2rem;
-    
+
 }
