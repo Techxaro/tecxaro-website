@@ -57,11 +57,66 @@
 
 }
 
+.N-D-tecxaro-logo {
+    width: 9rem;
+    margin-left: 6rem;
+}
+
 .joinUs-navbar {
     position: absolute;
     right: 6rem;
 
+    padding: 0.7rem 0rem;
 
+
+    font-size: 1.875rem;
+    /* 30px */
+    line-height: 2.25rem;
+    /* 36px */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1880px) {
+    #Navbar {
+        background-color: var(--grey);
+        width: 100%;
+        max-width: 1920px;
+        height: 5rem;
+
+        display: flex;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+
+        z-index: +100;
+
+    }
+
+    .N-D-tecxaro-logo {
+        margin-left: 6rem;
+        width: 8rem;
+    }
+
+    .joinUs-navbar {
+        position: absolute;
+        right: 6rem;
+
+        padding: 0.25rem 0rem;
+        font-size: 1.6rem;
+
+    }
 }
 
 
@@ -109,7 +164,7 @@
 }
 
 
-.HS-D-subtitles{
+.HS-D-subtitles {
     font-size: 1.25rem;
     line-height: 1.75rem;
 
@@ -141,15 +196,15 @@
 
 }
 
-@media (max-width: 1684px) {
+@media (max-width: 1700px) {
 
-    .heroSection-main-highlight{
+    .heroSection-main-highlight {
         font-size: 5.2rem;
         line-height: 4.5rem;
-        
+
     }
 
-    .HS-D-subtitles{
+    .HS-D-subtitles {
         font-size: 1rem;
         line-height: 1.45rem;
 
@@ -181,6 +236,12 @@
 
 
 
+
+
+
+
+
+
 /* ABOUT US SECTION HOME PAGE */
 #AboutUs-section-homePage-D {
 
@@ -196,10 +257,11 @@
 
     /* background-color: red; */
     background-color: var(--grey);
-
+    
 }
 
 .contentWrapper-aboutUs-D {
+    /* margin-top: -2vh; */
     width: 92.25rem;
 }
 
@@ -209,7 +271,7 @@
     flex-direction: column;
     justify-content: center;
 
-    width: 51%;
+    width: 100%;
 
 }
 
@@ -232,6 +294,10 @@
 }
 
 
+.AU-D-imgEdit{
+
+    width: 29rem;
+}
 
 
 
@@ -246,13 +312,16 @@
 
 
 
+@media (max-width: 1800px) {
+    
+}
 
 
 @media (max-width: 1669px) {
-    
+
 
     .contentWrapper-aboutUs-D {
-        width: 85%;
+        width: 88%;
     }
 
 }
@@ -296,16 +365,16 @@
 
     position: relative;
     /* bottom: 1rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
 #practicalApproach-whiteSvgLine {
 
-    height: 52rem;
+    height: 49rem;
     position: relative;
     /* bottom: 1rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
@@ -313,7 +382,7 @@
 
     position: relative;
     /* bottom: 0.98rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
@@ -322,7 +391,7 @@
     height: 58rem;
     position: relative;
     /* bottom: 1rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
@@ -363,20 +432,20 @@
 
 }
 
+
+#practicalApproach-whyChooseUs {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
 #practicalApproach-smallPara1 {
 
     width: 53%;
 
 }
-
-#practicalApproach-whyChooseUs {
-
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-
 
 #practicalApproach-heading {
 
@@ -460,9 +529,10 @@
 
 #tailouredforyou-wrapper {
 
-    width: 92.25rem;
+    max-width: 92.25rem;
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -489,7 +559,56 @@
     justify-content: center;
     align-items: flex-end;
 
+    
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1800PX TAILOURED FOR YOU */
+
+@media (max-width: 1800px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 1774px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 1750px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 25px;
+    }
+}
+
+
+@media (max-width: 1728px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 1710px) {
+    .text-wrapper-tailourMadeForYou{
+        margin-right: 34px;
+    }
 }
 
 
@@ -507,13 +626,7 @@
 
 
 
-
-
-
-
 /* WHY CHOOSE US PART 3 */
-
-
 
 
 /* FOCUS ON INNOVATION */
@@ -545,6 +658,68 @@
     flex-direction: column;
 
     align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1800PX TAILOURED FOR YOU */
+
+@media (max-width: 1800px) {
+    .FOI-text-part{
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 1774px) {
+    .FOI-text-part{
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 1750px) {
+    .FOI-text-part{
+        margin-right: 25px;
+    }
+}
+
+
+@media (max-width: 1728px) {
+    .FOI-text-part{
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 1710px) {
+    .FOI-text-part{
+        margin-right: 34px;
+    }
 }
 
 
@@ -799,7 +974,8 @@
 #CUS-main {
     width: 100%;
     max-width: 1920px;
-    height: 59rem;
+    /* height: 59rem; */
+    height: 100vh;
     background-color: var(--grey);
 
     display: flex;
@@ -811,7 +987,7 @@
 
 #CUS-wrapper {
     width: 92.25rem;
-    height: 37rem;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;

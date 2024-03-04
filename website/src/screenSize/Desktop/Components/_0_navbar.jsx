@@ -15,7 +15,7 @@ export const Navbar = () => {
 
 
       {/* TECXARO LOGO */}
-      <img src={tecxaroLogo} alt="the logo of tecxaro" className=" w-[9rem] ml-24" />
+      <img src={tecxaroLogo} alt="the logo of tecxaro" className="N-D-tecxaro-logo" />
 
 
 
@@ -23,10 +23,10 @@ export const Navbar = () => {
 
 
       {/* JOIN US BUTTON */}
-      <div className="joinUs-navbar border-2 border-white px-7 py-3">
+      <div className="joinUs-navbar border-2 border-white px-7">
 
 
-        <p className="poppins  text-[#F56B00] text-3xl font-extrabold">Join
+        <p className="poppins  text-[#F56B00] font-extrabold">Join
 
           <span className=" text-white"> Us</span>
 
