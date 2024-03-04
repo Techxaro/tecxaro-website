@@ -40,7 +40,7 @@ export const AboutUs = () => {
 
 
         {/* THE IMAGE IN THE ABOUT US SECTION */}
-        <div>
+        <div className=" w-[90%] flex justify-end items-center">
           <img className="AU-D-imgEdit" src={aboutUsImg} alt="our working desk" />
         </div>
 

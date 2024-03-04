@@ -196,7 +196,7 @@
 
 }
 
-@media (max-width: 1684px) {
+@media (max-width: 1700px) {
 
     .heroSection-main-highlight {
         font-size: 5.2rem;
@@ -271,7 +271,7 @@
     flex-direction: column;
     justify-content: center;
 
-    width: 51%;
+    width: 100%;
 
 }
 
@@ -365,16 +365,16 @@
 
     position: relative;
     /* bottom: 1rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
 #practicalApproach-whiteSvgLine {
 
-    height: 52rem;
+    height: 49rem;
     position: relative;
     /* bottom: 1rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
@@ -382,7 +382,7 @@
 
     position: relative;
     /* bottom: 0.98rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
@@ -391,7 +391,7 @@
     height: 58rem;
     position: relative;
     /* bottom: 1rem; */
-    top: 2rem;
+    top: 3.1rem;
 }
 
 
@@ -560,6 +560,17 @@
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
