@@ -14,6 +14,12 @@ import { ContactUsSection } from "../Components/_9_contactUs"
 import "./homePage.css"
 
 export const HomePageDesktop = () => {
+
+  
+
+
+
+
   return (
     <div id="home-page-desktop-id" className=" bg-[#2A2A2A]">
         <Navbar/>
