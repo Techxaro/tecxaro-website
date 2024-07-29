@@ -6,6 +6,16 @@ import youtube from "../../../assets/svg/youtube.svg"
 
 
 export const ContactUsSection = () => {
+
+
+
+  // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
+  const urlHandler = () => {
+    window.open("https://sprw.io/stt-lmC3P", "_blank")
+  }
+
+
+
   return (
     <div id="CUS-M-main">
 
@@ -54,7 +64,7 @@ export const ContactUsSection = () => {
           </div>
 
           {/* CONTACT US BUTTON */}
-          <div className="CUS-M-contactUs-button font-semibold">
+          <div className="CUS-M-contactUs-button font-semibold" onClick={urlHandler}>
             <p className="raleway">Contact Us</p>
           </div>
 

@@ -4,6 +4,13 @@ import xLogoOfTecxaro from "../../../assets/svg/whiteX.svg"
 
 
 export const SolvingRealWorldProblems = () => {
+
+  // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
+  const urlHandler = () => {
+    window.open("https://sprw.io/stt-lmC3P", "_blank")
+  }
+
+
   return (
     <div id="SRWP-M-main">
 
@@ -51,7 +58,7 @@ export const SolvingRealWorldProblems = () => {
 
 
         {/* THE JOIN US BUTTON */}
-        <div className="SRWP-M-joinUs-button-wrapper mt-4 mb-14">
+        <div className="SRWP-M-joinUs-button-wrapper mt-4 mb-14" onClick={urlHandler}>
           <div className=" SRWP-M-joinUs-button raleway font-semibold">
             <p>Join <span className=" color-orange">Us</span></p>
           </div>

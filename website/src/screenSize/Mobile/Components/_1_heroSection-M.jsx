@@ -2,6 +2,15 @@
 
 
 export const HeroSectionMobile = () => {
+
+    // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
+    const urlHandler = () => {
+        window.open("https://sprw.io/stt-lmC3P", "_blank")
+    }
+
+
+
+
     return (
         <div id="HS-main">
 
@@ -68,7 +77,7 @@ export const HeroSectionMobile = () => {
 
 
             {/* CONTACT US BUTTON */}
-            <div className=" flex w-[17.875rem] ">
+            <div className=" flex w-[17.875rem] " onClick={urlHandler}>
                 <a className="HSM-contactUs color-orange raleway font-semibold">
                     Contact Us
                 </a>
