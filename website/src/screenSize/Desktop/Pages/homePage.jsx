@@ -15,13 +15,13 @@ import "./homePage.css"
 
 export const HomePageDesktop = () => {
 
-  
+
 
 
 
 
   return (
-    <div id="home-page-desktop-id" className=" bg-[#2A2A2A]">
+    <div id="home-page-desktop-id" className=" bg-[#2a2a2a]">
         <Navbar/>
         <HeroSection/>
         <AboutUs/>

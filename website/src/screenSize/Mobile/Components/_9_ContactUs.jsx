@@ -16,6 +16,20 @@ export const ContactUsSection = () => {
 
 
 
+  // OPENS WHATSAPP GROUP
+  const openWhatsapp = () => {
+    window.open("https://chat.whatsapp.com/FU47jF0t26k2FfGkK46Ntz", "_blank")
+  }
+
+
+  // OPENS WHATSAPP GROUP
+  const openLinkedin = () => {
+    window.open("https://www.linkedin.com/company/tecxaro/posts/?feedView=all", "_blank")
+  }
+
+
+
+
   return (
     <div id="CUS-M-main">
 
@@ -58,8 +72,8 @@ export const ContactUsSection = () => {
         <div className="CUS-M-socialLogos">
 
           <div className=" flex mb-4 ml-2">
-            <img className=" w-[2.6rem] h-[2.6rem] mr-2" src={linkedin} alt="" />
-            <img className=" w-[2.6rem] h-[2.6rem] mr-2" src={whatsApp} alt="" />
+            <img onClick={openLinkedin} className=" w-[2.6rem] h-[2.6rem] mr-2" src={linkedin} alt="" />
+            <img onClick={openWhatsapp} className=" w-[2.6rem] h-[2.6rem] mr-2" src={whatsApp} alt="" />
             <img className=" w-[2.6rem] h-[2.6rem] mr-2" src={youtube} alt="" />
           </div>
 

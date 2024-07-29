@@ -56,18 +56,17 @@ function App() {
 
     // console.log("This is triggering")
     return (
-
-      <HomePageMobile />
-
+      <>
+        <HomePageMobile />
+      </>
     );
   }
 
   else if (windowWidth >= 450) {
     return (
-
-
-      <HomePageDesktop />
-
+      <>
+        <HomePageDesktop />
+      </>
     );
   }
 

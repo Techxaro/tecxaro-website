@@ -938,6 +938,7 @@
     height: 100vh;
 
     background-color: var(--grey);
+    
 
     display: flex;
     justify-content: center;
