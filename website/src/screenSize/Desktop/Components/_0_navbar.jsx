@@ -8,6 +8,16 @@ import tecxaroLogo from "../../../assets/svg/tecxaro-logo.svg"
 
 
 export const Navbar = () => {
+
+
+
+  const urlHandler = () => {
+    window.open("https://sprw.io/stt-lmC3P","_blank")
+  }
+
+
+
+
   return (
     <div id="Navbar" className=" shadow-xl">
 
@@ -23,7 +33,7 @@ export const Navbar = () => {
 
 
       {/* JOIN US BUTTON */}
-      <div className="joinUs-navbar border-2 border-white px-7">
+      <div onClick={urlHandler} className="joinUs-navbar border-2 border-white px-7">
 
 
         <p className="poppins  text-[#F56B00] font-extrabold">Join
