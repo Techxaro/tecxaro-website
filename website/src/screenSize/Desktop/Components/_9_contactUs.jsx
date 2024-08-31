@@ -43,8 +43,10 @@ export const ContactUsSection = () => {
         <div className=" w-[100%] flex justify-between items-center">
           {/* THE TWO LOGOS */}
           <div className=" flex justify-between w-[11rem]">
-            <img className=" h-[4.5rem] cursor-pointer" src={linkedin} alt="" />
-            <img className=" h-[4.7rem] cursor-pointer" src={instagram} alt="" />
+
+            <img onClick={() => window.open("https://www.linkedin.com/company/tecxaro/posts/?feedView=all","_blank")} className=" h-[4.5rem] cursor-pointer" src={linkedin} alt="" />
+
+            <img onClick={() => window.open("https://www.instagram.com/tecxaro/","_blank")} className=" h-[4.7rem] cursor-pointer" src={instagram} alt="" />
 
           </div>
 
