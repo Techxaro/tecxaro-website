@@ -48,7 +48,7 @@ export const ProjectsSection = () => {
 
             {/* TEXT */}
             <div className=" dmMono PS-project-card-para">
-              <p>A line follower project makes a robot follow marked paths using sensors to detect lines and adjust its movement. It showcases basic autonomous navigation through sensor integration and programming.</p>
+              <p>Experience flight reimagined with our FPV Drone. Seamless control, real-time video, and a sleek, durable design make every moment in the sky both exhilarating and effortlessly beautiful.</p>
             </div>
 
 
@@ -86,7 +86,7 @@ export const ProjectsSection = () => {
 
             {/* TEXT */}
             <div className=" dmMono PS-project-card-para">
-              <p>A line follower project makes a robot follow marked paths using sensors to detect lines and adjust its movement. It showcases basic autonomous navigation through sensor integration and programming.</p>
+              <p>Simplify your life with our Home Automation System. Effortless control, intuitive design, and seamless integration bring comfort, security, and convenience to your home—all at the touch of a button.</p>
             </div>
 
 
@@ -124,7 +124,7 @@ export const ProjectsSection = () => {
 
             {/* TEXT */}
             <div className=" dmMono PS-project-card-para">
-              <p>A line follower project makes a robot follow marked paths using sensors to detect lines and adjust its movement. It showcases basic autonomous navigation through sensor integration and programming.</p>
+              <p>Meet Intelliholder: the intelligent identity card. With built-in GPS tracking, it redefines safety, giving guardians real-time location updates and peace of mind—all in a sleek, modern design.</p>
             </div>
 
 

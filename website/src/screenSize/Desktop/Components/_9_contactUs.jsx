@@ -1,7 +1,8 @@
 // IMPORTING THE ICONS HERE
-import linkedin from "../../../assets/svg/linkedin.svg"
-import whatsapp from "../../../assets/svg/whatsapp.svg"
-import youtube from "../../../assets/svg/youtube.svg"
+import linkedin from "../../../assets/ContactUsSection/linkedin(1).png"
+import instagram from "../../../assets/ContactUsSection/instagram.png"
+import mail from "../../../assets/ContactUsSection/mail.png"
+import telePhone from "../../../assets/ContactUsSection/telephone.png"
 import tecxaroLogo from "../../../assets/svg/tecxaro-logo.svg"
 
 export const ContactUsSection = () => {
@@ -40,11 +41,11 @@ export const ContactUsSection = () => {
 
 
         <div className=" w-[100%] flex justify-between items-center">
-          {/* THE THREE LOGOS */}
-          <div className=" flex justify-between w-[20rem]">
-            <img src={linkedin} alt="" />
-            <img src={whatsapp} alt="" />
-            <img src={youtube} alt="" />
+          {/* THE TWO LOGOS */}
+          <div className=" flex justify-between w-[11rem]">
+            <img className=" h-[4.5rem] cursor-pointer" src={linkedin} alt="" />
+            <img className=" h-[4.7rem] cursor-pointer" src={instagram} alt="" />
+            
           </div>
 
 
