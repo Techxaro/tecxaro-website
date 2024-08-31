@@ -1,4 +1,4 @@
-
+import teamImg from "../../../assets/tecxaro_team/tecxaro_teamPic.jpg"
 
 export const TeamSection = () => {
   return (
@@ -13,7 +13,7 @@ export const TeamSection = () => {
 
         {/* IMAGE OF OUR TEAM */}
         <div className="TS-team-image-wrapper">
-            
+            <img className="TS-team-image" src={teamImg} alt="" />
         </div>
       
 

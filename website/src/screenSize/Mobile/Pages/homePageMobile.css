@@ -3,7 +3,7 @@
     background-color: var(--grey);
     /* height: 1000vh; */
 
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -891,11 +891,15 @@
 .OTS-M-teamImg {
 
     width: 100%;
-    height: 26.875rem;
+    
 
     background-color: var(--lightGrey);
-    border: 15px solid white;
+    border: 12px solid white;
 
+}
+
+.OTS-M-teamImg img{
+    
 }
 
 

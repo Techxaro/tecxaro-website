@@ -19,7 +19,7 @@ export const TheOrangeBanner = () => {
 
 
         {/* JOIN US BUTTON */}
-        <div>
+        <div className="cursor-pointer">
           <div className=" raleway TOB-joinUs-button font-semibold">Join <span className="color-orange">Us</span></div>
         </div>
 
