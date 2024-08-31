@@ -856,6 +856,11 @@
 
 }
 
+.PS-projectImg-edit{
+    height: 16rem;
+    width: 23rem;
+}
+
 .PS-project-card-main {
     display: flex;
     flex-direction: column;
@@ -936,10 +941,19 @@
 .TS-team-image-wrapper {
 
     width: 1315px;
-    height: 31.8rem;
+    height: 35rem;
     background-color: var(--lightGrey);
 
+    overflow: hidden;
     border: 12px solid white;
+    
+}
+
+.TS-team-image{
+    
+    position: relative;
+    bottom: 11rem;
+    width: 1315px;
 }
 
 

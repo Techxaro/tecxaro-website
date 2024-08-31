@@ -1,5 +1,5 @@
 
-
+import tecxaroTeamImage from "../../../assets/tecxaro_team/tecxaro_teamPic.jpg"
 
 export const OurTeamSection = () => {
   return (
@@ -29,6 +29,7 @@ export const OurTeamSection = () => {
 
             {/* THE IMAGE OUR OUR TEAM */}
             <div className=" OTS-M-teamImg">
+              <img src={tecxaroTeamImage} alt="" />
             </div>
 
 
