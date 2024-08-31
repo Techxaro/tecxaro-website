@@ -1005,6 +1005,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    position: relative;
 }
 
 .CUS-contactus-button {
@@ -1013,6 +1015,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
 
 
 }
@@ -1025,6 +1029,6 @@
     justify-content: flex-end;
 
     position: absolute;
-    bottom: 2rem;
+    bottom: -4rem;
 
 }
