@@ -6,6 +6,24 @@ import telePhone from "../../../assets/ContactUsSection/telephone.png"
 import tecxaroLogo from "../../../assets/svg/tecxaro-logo.svg"
 
 export const ContactUsSection = () => {
+
+
+
+
+
+
+
+  // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
+  const urlHandler = () => {
+    window.open("https://tally.so/r/3lLPG5", "_blank")
+  }
+
+
+
+
+
+
+
   return (
     <div id="CUS-main">
 
@@ -44,15 +62,15 @@ export const ContactUsSection = () => {
           {/* THE TWO LOGOS */}
           <div className=" flex justify-between w-[11rem]">
 
-            <img onClick={() => window.open("https://www.linkedin.com/company/tecxaro/posts/?feedView=all","_blank")} className=" h-[4.5rem] cursor-pointer" src={linkedin} alt="" />
+            <img onClick={() => window.open("https://www.linkedin.com/company/tecxaro/posts/?feedView=all", "_blank")} className=" h-[4.5rem] cursor-pointer" src={linkedin} alt="" />
 
-            <img onClick={() => window.open("https://www.instagram.com/tecxaro/","_blank")} className=" h-[4.7rem] cursor-pointer" src={instagram} alt="" />
+            <img onClick={() => window.open("https://www.instagram.com/tecxaro/", "_blank")} className=" h-[4.7rem] cursor-pointer" src={instagram} alt="" />
 
           </div>
 
 
           {/* CONTACT US BUTTON */}
-          <div className="CUS-contactus-button text-4xl font-semibold raleway px-6 py-2">
+          <div className="CUS-contactus-button text-4xl font-semibold raleway px-6 py-2" onClick={urlHandler}>
             <p>Contact <span className=" color-orange">Us</span></p>
           </div>
 
