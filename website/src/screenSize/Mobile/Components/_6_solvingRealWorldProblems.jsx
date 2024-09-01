@@ -5,10 +5,10 @@ import xLogoOfTecxaro from "../../../assets/svg/whiteX.svg"
 
 export const SolvingRealWorldProblems = () => {
 
-  // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
-  const urlHandler = () => {
-    window.open("https://sprw.io/stt-lmC3P", "_blank")
-  }
+ // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
+ const urlHandler = () => {
+  window.open("https://tally.so/r/3lLPG5","_blank")
+}
 
 
   return (

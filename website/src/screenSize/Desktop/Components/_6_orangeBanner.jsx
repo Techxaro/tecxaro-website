@@ -1,6 +1,15 @@
 
 
 export const TheOrangeBanner = () => {
+
+
+  // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
+  const urlHandler = () => {
+    window.open("https://tally.so/r/3lLPG5","_blank")
+  }
+
+
+
   return (
     <div id="TOB-main">
 
@@ -19,7 +28,7 @@ export const TheOrangeBanner = () => {
 
 
         {/* JOIN US BUTTON */}
-        <div className="cursor-pointer">
+        <div className="cursor-pointer" onClick={urlHandler}>
           <div className=" raleway TOB-joinUs-button font-semibold">Join <span className="color-orange">Us</span></div>
         </div>
 

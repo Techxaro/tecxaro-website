@@ -9,9 +9,9 @@ export const ContactUsSection = () => {
 
 
 
-  // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
-  const urlHandler = () => {
-    window.open("https://sprw.io/stt-lmC3P", "_blank")
+   // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
+   const urlHandler = () => {
+    window.open("https://tally.so/r/3lLPG5","_blank")
   }
 
 
@@ -30,6 +30,9 @@ export const ContactUsSection = () => {
 
 
 
+
+
+
   return (
     <div id="CUS-M-main">
 
@@ -39,9 +42,9 @@ export const ContactUsSection = () => {
 
 
         {/* CONTACT US HEADING */}
-        <div className="CUS-M-headingWrapper relative">
+        <div className="CUS-M-headingWrapper relative" >
 
-          <h1 className=" raleway CUS-M-heading font-semibold normal-z">Contact <span className=" color-orange">Us</span></h1>
+          <h1 className=" raleway CUS-M-heading font-semibold normal-z" onClick={urlHandler}>Contact <span className=" color-orange">Us</span></h1>
 
 
           {/* THE ORANGE CIRCLE */}

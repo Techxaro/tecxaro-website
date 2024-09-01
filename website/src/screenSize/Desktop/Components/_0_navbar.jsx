@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   // OPENS THE WEBSITE FOR FILLING UP PERSONAL INFO
   const urlHandler = () => {
-    window.open("https://sprw.io/stt-lmC3P","_blank")
+    window.open("https://tally.so/r/3lLPG5","_blank")
   }
 
 
